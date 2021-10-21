@@ -1,1 +1,25 @@
 <?xml version="1.0"?>
+<menu>
+    <menu><nom>Menu 1
+        <prix unite="euro">30</prix>
+    </nom>
+        <entree>
+            <titre>entree</titre>
+                 <nom>entree 1</nom>
+                 <description>description 1</description>
+        </entree>
+        <entree>
+                <nom>entree 2</nom>
+                <description>description 2</description>
+        </entree>
+        <entree>
+                 <nom>entree 3</nom>
+                 <description>description 3</description>
+        </entree>
+         <plat>
+            <titre>plat</titre>
+                <nom>plat 1</nom>
+                <description>description 1</description>
+         </plat>
+    </menu>
+</menu>
