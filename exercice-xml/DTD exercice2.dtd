@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<!ELEMENT (menu*)>
+<!ELEMENT menu (prix,entree,plat,fromage,dessert)
+<!ATTLIST prix (30|20|15)

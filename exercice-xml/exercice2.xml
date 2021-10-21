@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <menu>
     <menu><nom>Menu 1
-        <prix unite="euro">30</prix>
+        <prix devise="euro">30</prix>
     </nom>
         <entree>
-            <titre>entree</titre>
+            <titre>entrees</titre>
                  <nom>entree 1</nom>
                  <description>description 1</description>
         </entree>
@@ -16,10 +16,86 @@
                  <nom>entree 3</nom>
                  <description>description 3</description>
         </entree>
-         <plat>
-            <titre>plat</titre>
+        <plat>
+            <titre>plats</titre>
+                <nom>plat 1</nom>
+                <description>description 1</description>
+        </plat>
+        <plat>
+                <nom>plat 2</nom>
+                <description>description 2</description>
+        </plat>
+        <plat>
+                <nom>Plat 3</nom>
+                <description>description 3</description>
+        </plat>
+        <fromage>
+            <titre>fromage</titre>
+                <nom>nom du fromage</nom>
+                <description>description du fromage</description>
+        </fromage> 
+        <dessert>
+            <titre>desserts</titre>
+                <nom>dessert 1</nom>
+                <description>description 1</description>
+        </dessert>
+        <dessert>
+                <nom>dessert 2</nom>
+                <description>description 2</description>
+        </dessert>
+        <dessert>
+                <nom>dessert 3</nom>
+                <description>description3</description>
+        </dessert>
+    </menu>    
+    <menu><nom>Menu 2
+        <prix devise="euro">20</prix>
+    </nom>
+        <entree>
+            <titre>entrees</titre>
+                <nom>entree 1</nom>
+                <description>description 1</description>
+        </entree>
+        <entree>
+                <nom>entree 2</nom>
+                <description>description 2</description>
+        </entree>
+        <plat>
+            <titre>plats</titre>
                 <nom>plat 1</nom>
                 <description>description 1</description>
          </plat>
+         <plat>
+                <nom>plat 2</nom>
+                <description>description 2</description>
+         </plat>
+         <dessert> 
+            <titre>desserts</titre>
+                 <nom>dessert 1</nom>
+                <description>description 1</description>
+        </dessert>
+        <dessert>
+                <nom>dessert 2</nom>
+                <description>description 2</description>
+        </dessert>
+    </menu>
+    <menu><nom>Menu 3
+        <prix devise="euro">15</prix>
+    </nom>
+        <entree>
+            <titre>entrees</titre>
+                <nom>entree </nom>
+                <description>description </description>
+        </entree>
+        <plat>
+            <titre>plats</titre>
+                <nom>plat</nom>
+                <description>description</description>
+        </plat>
+        <dessert> 
+            <titre>desserts</titre>
+                 <nom>dessert</nom>
+                <description>description</description>
+        </dessert>
     </menu>
 </menu>
