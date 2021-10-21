@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<livre>
+    <liste_auteurs>
+        <auteur_1>
+            <nom>nom auteur 1</nom>
+            <prenom_1>prenom auteur 1</prenom_1>
+        </auteur_1>
+        <auteur_2><nom>nom auteur 2</nom>
+        <prenom_2>prenom auteur 2</prenom_2>
+        </auteur_2>
+</liste_auteurs>
+<section_1><titre>section 1</titre>
+    <chapitre_1>
+        <titre>chapitre 1</titre>
+            <paragraphe_1>texte</paragraphe_1>
+            <paragraphe_2>texte</paragraphe_2>
+    </chapitre_1>
+    <chapitre_2>
+        <titre>chapitre 2</titre>
+            <paragraphe_1>texte</paragraphe_1>
+            <paragraphe_2>texte</paragraphe_2>
+    </chapitre_2>
+    </section_1>
+<section_2><titre>section 2</titre>
+        <chapitre_1>
+            <titre>chapitre 1</titre>
+                <paragraphe_1>texte</paragraphe_1>
+                <paragraphe_2>texte</paragraphe_2>
+        </chapitre_1>
+        <chapitre_2>
+            <titre>chapitre 2</titre>
+                <paragraphe_1>texte</paragraphe_1>
+                <paragraphe_2>texte</paragraphe_2>
+        </chapitre_2>
+</section_2>
+</livre>
