@@ -1,4 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT (menu*)>
-<!ELEMENT menu (prix,entree,plat,fromage,dessert)
+<!ELEMENT menu (prix*,entree*,plat*,fromage,dessert*)
 <!ATTLIST prix (30|20|15)
+<!ATTLIST ENTREE (1|2|3|)
+<!ATTLIST PLAT (1|2|3)
+<!ATTLIST FROMAGE
+<!ATTLIST DESSERT (1|2|3|) 

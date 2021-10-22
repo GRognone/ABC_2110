@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <entree>
+        <nom>entree 1</nom>
+        <prix devise="Euro">prix fixé</prix>
+        <description>description du produit</description>
+        <nom>entree 2</nom>
+        <prix devise="Euro">prix fixé</prix>
+        <description>description du produit</description>
+    </entree>
+    <plat>
+        <nom>plat 1</nom>
+        <prix devise="Euro">prix fixé</prix>
+        <description>description du produit</description>
+        <nom>plat 2</nom>
+        <prix devise="Euro">prix fixé</prix>
+        <description>description du produit</description>
+        <nom>plat 3</nom>
+        <prix devise="Euro">prix fixé</prix>
+        <description>description du produit</description>
+    </plat>
+    <dessert>
+        <nom>entree 1</nom>
+        <prix devise="Euro">prix fixé</prix>
+        <description>description du produit</description>
+        <nom>entree 2</nom>
+        <prix devise="Euro">prix fixé</prix>
+        <description>description du produit</description>
+    </dessert>
+</menu>

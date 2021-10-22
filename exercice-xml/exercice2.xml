@@ -1,7 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<UTF></UTF>?>
 <menu>
     <menu><nom>Menu 1
-        <prix devise="euro">30</prix>
+        <prix devise="Euro">30</prix>
     </nom>
         <entree>
             <titre>entrees</titre>
@@ -49,7 +50,7 @@
         </dessert>
     </menu>    
     <menu><nom>Menu 2
-        <prix devise="euro">20</prix>
+        <prix devise="Euro">20</prix>
     </nom>
         <entree>
             <titre>entrees</titre>
@@ -80,7 +81,7 @@
         </dessert>
     </menu>
     <menu><nom>Menu 3
-        <prix devise="euro">15</prix>
+        <prix devise="Euro">15</prix>
     </nom>
         <entree>
             <titre>entrees</titre>

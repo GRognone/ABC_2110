@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<offre_emploi>
+    <offre>
+        <intitule>Developpeur PHP</intitule>
+            <lieu ville="nom">Paris</lieu>
+            <description>
+                <texte>taches</texte>
+                <texte>avantages</texte>
+                <texte>profil recherche</texte>
+            </description>
+            <nom>liste de competences</nom>
+            <objets>
+                <objet>rigueur</objet>
+                <objet>adaptation</objet>
+                <objet>autonomie</objet>
+                <objet>maitrise</objet>
+                <objet>langage outls web</objet>
+                <objet>respect des delais</objet>
+                <objet>reactivité</objet>
+            </objets>
+            <date date="debut">1er Avril 2021</date>
+            <salaire devise="Euro">2500</salaire>
+            <mail>devphp@candidat.com</mail>
+    </offre>
+    <offre>
+        <intitule>Developpeur java</intitule>
+            <lieu ville="nom">Mulhouse</lieu>
+            <description>
+                <texte>taches</texte>
+                <texte>avantages</texte>
+                <texte>profil recherche</texte>
+            </description>
+            <titre>liste de competences</titre>
+            <objets>
+                <objet>maitrise langage java</objet>
+                <objet>communication</objet>
+                <objet>relationnel</objet>
+                <objet>rigeur</objet>
+                <objet>organisation</objet>
+                <objet>disponibilite</objet>
+                <objet>flexibilite</objet>
+            </objets>
+            <date date="debut">1er mai 2021</date>
+            <salaire devise="Euro">2500</salaire>
+            <mail>devjava@candidat.com</mail>
+    </offre>
+    <offre>
+        <intitule>Developpeur Nodejs</intitule>
+            <lieu ville="nom">Toulouse</lieu>
+            <description>
+                <texte>taches</texte>
+                <texte>avantages</texte>
+                <texte>profil recherche</texte>  
+            </description>      
+            <titre>liste de competences</titre>
+            <objets>
+                <objet>connaissance javascript</objet>
+                <objet>connaissance developpement asynchrone</objet>
+                <objet>logique</objet>
+                <objet>collaboration</objet>
+                <objet>communication</objet>
+            </objets>
+            <date date="debut">1er Juin 2021</date>
+            <salaire devise="Euro">2500</salaire>
+            <mail>devnodejs@candidat.com</mail>
+    </offre>
+</offre_emploi>

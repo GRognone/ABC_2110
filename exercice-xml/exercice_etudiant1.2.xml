@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<formation>
+    <titre>formation</titre>
+        <intitulé>intitule de la formation</intitulé>
+        <duree duree="mois">5</duree>
+        <date debut="date">01 janvier 2020</date>
+        <date fin="date">01 mai 2020</date>
+    <liste nom="etudiants">
+        <etudiant>
+            <nom>Nom etudiant 1</nom>
+            <prenom>prenom etudiant 1</prenom>
+            <ddn>01 avril 2000</ddn>
+            <email>etudiant1@etudiant1.fr</email>
+         </etudiant>
+         <etudiant>
+            <nom>Nom etudiant 2</nom>
+            <prenom>prenom etudiant2</prenom>
+            <ddn>01 mai 2000</ddn>
+            <email>etudiant2@etudiant2.fr</email>
+         </etudiant>  
+         <etudiant>
+            <nom>Nom etudiant 3</nom>
+            <prenom>prenom etudiant 3</prenom>
+            <ddn>03 Juin 2003</ddn>
+            <email>etudiant3@etudiant3.fr</email>
+        </etudiant>  
+        <etudiant>
+            <nom>Nom etudiant 4</nom>
+            <prenom>prenom etudiant 4</prenom>
+            <ddn>04 juillet 2004</ddn>
+            <email>etudiant4@etudiant4.fr</email>
+        </etudiant>
+        <etudiant>
+            <nom>Nom etudiant 5</nom>
+            <prenom>prenom etudiant 5</prenom>
+            <ddn>05 août 2005</ddn>
+            <email>etudiant5@etudiant5.fr</email>        
+         </etudiant>
+    </liste>
+</formation>
