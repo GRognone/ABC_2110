@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema>
+    <nom>nom_du_cinema</nom>
+    <lieu ville="nom">nom_de_la_ville</lieu>
+    <date debut="date">lundi_1er_novembre_2021</date>
+    <date fin="date">dimanche_07_novembre_2021</date>
+<liste nom="nom du film">
+    <film>
+        <affiche affiche="image">photo_de_l_affiche.jpg</affiche>
+        <titre>titre_du_film_1</titre>
+        <style genre="categorie">genre_de_film</style>
+        <duree temps="heure_minutes">1h50</duree>
+        <censure age="age_conseillé">age_recommandé</censure>
+        <realisateur>nom_du_realisateur</realisateur>
+        <distribution nom="acteurs_principaux">Willis,Stalone,Pratt</distribution>
+        <description synopsys="resume">recit_bref_du_film</description>
+        <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
+            <liste jour="jour_de_la_semaine">
+                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+            </liste>
+        <prix devise="Euro">10</prix>
+        <lieu salle="numero_de_la_salle">salle_1</lieu>
+        <nombre places="nombre">100</nombre>
+    </film>
+</liste>
+</cinema>
