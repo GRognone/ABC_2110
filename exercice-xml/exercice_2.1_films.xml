@@ -12,7 +12,7 @@
         <duree temps="heure_minutes">1h50</duree>
         <censure age="age_conseillé">age_recommandé</censure>
         <realisateur>nom_du_realisateur</realisateur>
-        <distribution nom="acteurs_principaux">Willis,Stalone,Pratt</distribution>
+        <distribution nom="acteurs_principaux">a,b,c</distribution>
         <description synopsys="resume">recit_bref_du_film</description>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
@@ -21,6 +21,78 @@
             </liste>
         <prix devise="Euro">10</prix>
         <lieu salle="numero_de_la_salle">salle_1</lieu>
+        <nombre places="nombre">100</nombre>
+    </film>
+    <film>
+        <affiche affiche="image">photo_de_l_affiche.jpg</affiche>
+        <titre>titre_du_film_2</titre>
+        <style genre="categorie">genre_de_film</style>
+        <duree temps="heure_minutes">1h50</duree>
+        <censure age="age_conseillé">age_recommandé</censure>
+        <realisateur>nom_du_realisateur</realisateur>
+        <distribution nom="acteurs_principaux">d,e,f</distribution>
+        <description synopsys="resume">recit_bref_du_film</description>
+        <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
+            <liste jour="jour_de_la_semaine">
+                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+            </liste>
+        <prix devise="Euro">10</prix>
+        <lieu salle="numero_de_la_salle">salle_2</lieu>
+        <nombre places="nombre">100</nombre>
+    </film>
+    <film>
+        <affiche affiche="image">photo_de_l_affiche.jpg</affiche>
+        <titre>titre_du_film_3</titre>
+        <style genre="categorie">genre_de_film</style>
+        <duree temps="heure_minutes">1h50</duree>
+        <censure age="age_conseillé">age_recommandé</censure>
+        <realisateur>nom_du_realisateur</realisateur>
+        <distribution nom="acteurs_principaux">g,h,i</distribution>
+        <description synopsys="resume">recit_bref_du_film</description>
+        <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
+            <liste jour="jour_de_la_semaine">
+                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+            </liste>
+        <prix devise="Euro">10</prix>
+        <lieu salle="numero_de_la_salle">salle_3</lieu>
+        <nombre places="nombre">100</nombre>
+    </film>
+    <film>
+        <affiche affiche="image">photo_de_l_affiche.jpg</affiche>
+        <titre>titre_du_film_4</titre>
+        <style genre="categorie">genre_de_film</style>
+        <duree temps="heure_minutes">1h50</duree>
+        <censure age="age_conseillé">age_recommandé</censure>
+        <realisateur>nom_du_realisateur</realisateur>
+        <distribution nom="acteurs_principaux">j,k,l</distribution>
+        <description synopsys="resume">recit_bref_du_film</description>
+        <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
+            <liste jour="jour_de_la_semaine">
+                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+            </liste>
+        <prix devise="Euro">10</prix>
+        <lieu salle="numero_de_la_salle">salle_4</lieu>
+        <nombre places="nombre">100</nombre>
+    </film>
+    <film>
+        <affiche affiche="image">photo_de_l_affiche.jpg</affiche>
+        <titre>titre_du_film_5</titre>
+        <style genre="categorie">genre_de_film</style>
+        <duree temps="heure_minutes">1h50</duree>
+        <censure age="age_conseillé">age_recommandé</censure>
+        <realisateur>nom_du_realisateur</realisateur>
+        <distribution nom="acteurs_principaux">m,n,o</distribution>
+        <description synopsys="resume">recit_bref_du_film</description>
+        <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
+            <liste jour="jour_de_la_semaine">
+                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+            </liste>
+        <prix devise="Euro">10</prix>
+        <lieu salle="numero_de_la_salle">salle_5</lieu>
         <nombre places="nombre">100</nombre>
     </film>
 </liste>
