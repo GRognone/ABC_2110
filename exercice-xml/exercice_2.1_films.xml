@@ -16,7 +16,7 @@
         <description synopsys="resume">recit_bref_du_film</description>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
-                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <jour jour="date">lundi_1er_novembre_2021</jour>
                 <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
             </liste>
         <prix devise="Euro">10</prix>
@@ -34,7 +34,7 @@
         <description synopsys="resume">recit_bref_du_film</description>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
-                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <jour jour="date">lundi_1er_novembre_2021</jour>
                 <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
             </liste>
         <prix devise="Euro">10</prix>
@@ -52,7 +52,7 @@
         <description synopsys="resume">recit_bref_du_film</description>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
-                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <jour jour="date">lundi_1er_novembre_2021</jour>
                 <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
             </liste>
         <prix devise="Euro">10</prix>
@@ -70,7 +70,7 @@
         <description synopsys="resume">recit_bref_du_film</description>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
-                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <jour jour="date">lundi_1er_novembre_2021</jour>
                 <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
             </liste>
         <prix devise="Euro">10</prix>
@@ -88,7 +88,7 @@
         <description synopsys="resume">recit_bref_du_film</description>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
-                <jour jour="nom">lundi_1er_novembre_2021</jour>
+                <jour jour="date">lundi_1er_novembre_2021</jour>
                 <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
             </liste>
         <prix devise="Euro">10</prix>

@@ -1,1 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<concessionnaire>
+    <nom>nom_du_concessionnaire</nom>
+    <lieu>adresse</lieu>
+    <contact>numero_de_telephone</contact>
+    <e-mail>adresse_e-mail</e-mail>
+<liste nom="vehicule">
+    <vehicule>
+        <marque>marque_du_vehicule_1</marque>
+        <modele>modele</modele>
+        <couleur>couleur</couleur>
+        <classe>genre_du_vehicule(ex suv)</classe>
+        <prix devise="Euro">126000</prix>
+        <kilometrage>Kilometrage</kilometrage>
+        <annee>date_1er_mise_en_circulation</annee>
+        <type>motorisation</type>
+        <cylindree>1800cm3</cylindree>
+        <puissance>100cv/75Kw</puissance>
+        <carburant>type_carburant</carburant>
+        <classe_emission>Euro_6</classe_emission>
+        <emission_co2>119g/km</emission_co2>
+        <transmission>type_boite_de_vitesse</transmission>
+        <place>nombre_de_places</place>
+        <porte>nombre_de_portes</porte>
+        <sellerie>type_de_sellerie</sellerie>
+        <descriptif>liste_des_options_et_accessoires</descriptif>
+        <gelerie>galerie_photo.jpg</gelerie>
+        <accident vehicule_accidente="oui ou non">non</accident>
+        <controle_technique validité="date">21/07/22</controle_technique>
+        <revision etat="date et kilometrage">21/06/2021_15000Km</revision>
+    </vehicule>
+    <vehicule>
+        <marque>marque_du_vehicule_2</marque>
+        <modele>modele</modele>
+        <couleur>couleur</couleur>
+        <classe>genre_du_vehicule(ex suv)</classe>
+        <prix devise="Euro">162000</prix>
+        <kilometrage>Kilometrage</kilometrage>
+        <annee>date_1er_mise_en_circulation</annee>
+        <type>motorisation</type>
+        <cylindree>2200cm3</cylindree>
+        <puissance>110cv/81Kw</puissance>
+        <carburant>type_carburant</carburant>
+        <classe_emission>Euro_5</classe_emission>
+        <emission_co2>119g/km</emission_co2>
+        <transmission>type_boite_de_vitesse</transmission>
+        <place>nombre_de_places</place>
+        <porte>nombre_de_portes</porte>
+        <sellerie>type_de_sellerie</sellerie>
+        <descriptif>liste_des_options_et_accessoires</descriptif>
+        <gelerie>galerie_photo.jpg</gelerie>
+        <accident vehicule_accidente="oui ou non">non</accident>
+        <controle_technique validité="date">29/09/22</controle_technique>
+        <revision etat="date et kilometrage">01/05/2021_51000Km</revision>
+    </vehicule>
+    <vehicule>
+        <marque>marque_du_vehicule_3</marque>
+        <modele>modele</modele>
+        <couleur>couleur</couleur>
+        <classe>genre_du_vehicule(ex suv)</classe>
+        <prix devise="Euro">6000</prix>
+        <kilometrage>Kilometrage</kilometrage>
+        <annee>date_1er_mise_en_circulation</annee>
+        <type>motorisation</type>
+        <cylindree>1400cm3</cylindree>
+        <puissance>75cv/55Kw</puissance>
+        <carburant>type_carburant</carburant>
+        <classe_emission>Euro_3</classe_emission>
+        <emission_co2>80g/km</emission_co2>
+        <transmission>type_boite_de_vitesse</transmission>
+        <place>nombre_de_places</place>
+        <porte>nombre_de_portes</porte>
+        <sellerie>type_de_sellerie</sellerie>
+        <descriptif>liste_des_options_et_accessoires</descriptif>
+        <gelerie>galerie_photo.jpg</gelerie>
+        <accident vehicule_accidente="oui ou non">non</accident>
+        <controle_technique validité="date">10/05/22</controle_technique>
+        <revision etat="date et kilometrage">05/01/2020_144000Km</revision>
+    </vehicule>
+    <vehicule>
+        <marque>marque_du_vehicule_4</marque>
+        <modele>modele</modele>
+        <couleur>couleur</couleur>
+        <classe>genre_du_vehicule(ex suv)</classe>
+        <prix devise="Euro">29000</prix>
+        <kilometrage>Kilometrage</kilometrage>
+        <annee>date_1er_mise_en_circulation</annee>
+        <type>motorisation</type>
+        <cylindree>2200cm3</cylindree>
+        <puissance>150cv/110Kw</puissance>
+        <carburant>type_carburant</carburant>
+        <classe_emission>Euro_1</classe_emission>
+        <emission_co2>100g/km</emission_co2>
+        <transmission>type_boite_de_vitesse</transmission>
+        <place>nombre_de_places</place>
+        <porte>nombre_de_portes</porte>
+        <sellerie>type_de_sellerie</sellerie>
+        <descriptif>liste_des_options_et_accessoires</descriptif>
+        <gelerie>galerie_photo.jpg</gelerie>
+        <accident vehicule_accidente="oui ou non">non</accident>
+        <controle_technique validité="date">21/10/23</controle_technique>
+        <revision etat="date et kilometrage">08/01/2020_30000Km</revision>
+    </vehicule>
+</liste>
+</concessionnaire>
