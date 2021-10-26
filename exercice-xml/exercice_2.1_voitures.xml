@@ -28,6 +28,7 @@
         <accident vehicule_accidente="oui ou non">non</accident>
         <controle_technique validité="date">21/07/22</controle_technique>
         <revision etat="date et kilometrage">21/06/2021_15000Km</revision>
+        <prorietaire nombre="chiffre">1</prorietaire>
     </vehicule>
     <vehicule>
         <marque>marque_du_vehicule_2</marque>
@@ -52,6 +53,7 @@
         <accident vehicule_accidente="oui ou non">non</accident>
         <controle_technique validité="date">29/09/22</controle_technique>
         <revision etat="date et kilometrage">01/05/2021_51000Km</revision>
+        <prorietaire nombre="chiffre">2</prorietaire>
     </vehicule>
     <vehicule>
         <marque>marque_du_vehicule_3</marque>
@@ -76,6 +78,7 @@
         <accident vehicule_accidente="oui ou non">non</accident>
         <controle_technique validité="date">10/05/22</controle_technique>
         <revision etat="date et kilometrage">05/01/2020_144000Km</revision>
+        <prorietaire nombre="chiffre">5</prorietaire>
     </vehicule>
     <vehicule>
         <marque>marque_du_vehicule_4</marque>
@@ -100,6 +103,7 @@
         <accident vehicule_accidente="oui ou non">non</accident>
         <controle_technique validité="date">21/10/23</controle_technique>
         <revision etat="date et kilometrage">08/01/2020_30000Km</revision>
+        <prorietaire nombre="chiffre">3</prorietaire>
     </vehicule>
 </liste>
 </concessionnaire>
