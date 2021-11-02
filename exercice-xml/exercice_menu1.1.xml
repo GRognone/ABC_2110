@@ -20,10 +20,10 @@
         <description>description du produit</description>
     </plat>
     <dessert>
-        <nom>entree 1</nom>
+        <nom>dessert 1</nom>
         <prix devise="Euro">prix fixé</prix>
         <description>description du produit</description>
-        <nom>entree 2</nom>
+        <nom>dessert 2</nom>
         <prix devise="Euro">prix fixé</prix>
         <description>description du produit</description>
     </dessert>

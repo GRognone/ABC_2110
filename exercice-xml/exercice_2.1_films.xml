@@ -13,11 +13,14 @@
         <censure age="age_conseillé">age_recommandé</censure>
         <realisateur>nom_du_realisateur</realisateur>
         <distribution nom="acteurs_principaux">a,b,c</distribution>
-        <description synopsys="resume">recit_bref_du_film</description>
+        <synopsys>recit_bref_du_film</synopsys>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
                 <jour jour="date">lundi_1er_novembre_2021</jour>
-                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+                <Seances>
+                    <sceances sceances="heures_de_diffusion">horaires_des_seances</sceances>
+                    <heure>10h00,12h00</heure>
+                </Seances>
             </liste>
         <prix devise="Euro">10</prix>
         <lieu salle="numero_de_la_salle">salle_1</lieu>
@@ -31,11 +34,14 @@
         <censure age="age_conseillé">age_recommandé</censure>
         <realisateur>nom_du_realisateur</realisateur>
         <distribution nom="acteurs_principaux">d,e,f</distribution>
-        <description synopsys="resume">recit_bref_du_film</description>
+        <synopsys>recit_bref_du_film</synopsys>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
                 <jour jour="date">lundi_1er_novembre_2021</jour>
-                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+                <Seances>
+                    <sceances sceances="heures_de_diffusion">horaires_des_seances</sceances>
+                    <heure>10h00,12h00</heure>
+                </Seances>
             </liste>
         <prix devise="Euro">10</prix>
         <lieu salle="numero_de_la_salle">salle_2</lieu>
@@ -49,11 +55,14 @@
         <censure age="age_conseillé">age_recommandé</censure>
         <realisateur>nom_du_realisateur</realisateur>
         <distribution nom="acteurs_principaux">g,h,i</distribution>
-        <description synopsys="resume">recit_bref_du_film</description>
+        <synopsys>recit_bref_du_film</synopsys>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
                 <jour jour="date">lundi_1er_novembre_2021</jour>
-                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+            <Seances>
+                <sceances sceances="heures_de_diffusion">horaires_des_seances</sceances>
+                <heure>10h00,12h00</heure>
+            </Seances>    
             </liste>
         <prix devise="Euro">10</prix>
         <lieu salle="numero_de_la_salle">salle_3</lieu>
@@ -67,11 +76,14 @@
         <censure age="age_conseillé">age_recommandé</censure>
         <realisateur>nom_du_realisateur</realisateur>
         <distribution nom="acteurs_principaux">j,k,l</distribution>
-        <description synopsys="resume">recit_bref_du_film</description>
+        <synopsys>recit_bref_du_film</synopsys>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
                 <jour jour="date">lundi_1er_novembre_2021</jour>
-                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+                <Seances>
+                    <sceances sceances="heures_de_diffusion">horaires_des_seances</sceances>
+                    <heure>10h00,12h00</heure>
+                </Seances>
             </liste>
         <prix devise="Euro">10</prix>
         <lieu salle="numero_de_la_salle">salle_4</lieu>
@@ -85,11 +97,14 @@
         <censure age="age_conseillé">age_recommandé</censure>
         <realisateur>nom_du_realisateur</realisateur>
         <distribution nom="acteurs_principaux">m,n,o</distribution>
-        <description synopsys="resume">recit_bref_du_film</description>
+        <synopsys>recit_bref_du_film</synopsys>
         <trailer bande_annonce="video">video_bande_annonce.mkv</trailer>
             <liste jour="jour_de_la_semaine">
                 <jour jour="date">lundi_1er_novembre_2021</jour>
-                <horaires sceances="heures_de_diffusion">horaires_des_seances</horaires>
+                <Seances>
+                    <sceances sceances="heures_de_diffusion">horaires_des_seances</sceances>
+                    <heure>10h00,12h00</heure>
+                </Seances>
             </liste>
         <prix devise="Euro">10</prix>
         <lieu salle="numero_de_la_salle">salle_5</lieu>
