@@ -2,9 +2,7 @@ body{
     color:#FFFFFF;
     background-color:#22577a;
 }
-header{
 
-}
 h1{
     display: inline-block;
     position: relative;
@@ -27,3 +25,32 @@ h2{
         transform:rotateY(180deg);
         
     }
+
+.competences-left{
+    display:inline-block;
+}
+.competences-right{
+    display:inline-block;
+}
+.sport-left{
+    display:inline-block;
+}
+.sport-right{
+    display:inline-block;
+}
+
+.culture-left{
+    display:inline-block;     
+}
+.culture-right{
+    display:inline-block;
+}
+
+.travel-left{
+    display:inline-block;
+    color: pink;
+}
+.travel-right{
+    display:inline-block;
+    color: maroon;
+}
