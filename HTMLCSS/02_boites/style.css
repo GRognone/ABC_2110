@@ -4,33 +4,48 @@ body{
 }
 
 h1{
-    display: inline-block;
-    position: relative;
+    display: inline-block;    
     color: #FFFFFF;
     background-color:#38a3a5;
     border: 2px solid #FFFFFF;
     border-radius: 20px;
     font-size: 32px;
-    margin:50px;
-    padding: 20px;
+    margin:100px;
+    padding: 10px;
+    
+}
+.etat-civil{
+    display:inline-block;
+    
+    margin-left: 100px;
+    
     
 }
 h2{
-    height:300px;width: 300px;
-    border:2px solid darkgreen;
-    border-radius:80%;
+    display: inline-block;  
+    color: #FFFFFF;
+    background-color:#38a3a5;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    
+    font-size: 20px;
+    margin:5px;
+    padding: 5px;
     }
+
     img{
         vertical-align:middle;
         transform:rotateY(180deg);
-        
+        border:2px solid;
+        border-radius: 50px;
+        color:#FFFFFF;       
     }
 
 .competences-left{
-    display:inline-block;
+    display:block;
 }
 .competences-right{
-    display:inline-block;
+    display:block;
 }
 .sport-left{
     display:inline-block;
@@ -48,9 +63,9 @@ h2{
 
 .travel-left{
     display:inline-block;
-    color: pink;
+   
 }
 .travel-right{
     display:inline-block;
-    color: maroon;
+    
 }
