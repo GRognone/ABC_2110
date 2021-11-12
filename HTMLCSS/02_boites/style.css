@@ -33,14 +33,18 @@ h2{
     padding: 5px;
     }
 
-    img{
+    .profil{
         vertical-align:middle;
         transform:rotateY(180deg);
         border:2px solid;
         border-radius: 50px;
         color:#FFFFFF;       
     }
-
+    .icon{
+        width:100px;
+        height:100px;
+        
+    }
 .competences-left{
     display:block;
 }
