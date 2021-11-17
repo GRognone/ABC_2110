@@ -15,15 +15,17 @@ h1{
     
 }
 .etat-civil{
-    display:inline-block;
-    
+    display:inline-block;    
     margin-left: 100px;
     
     
 }
 h2{
     display: inline-block;  
+    position: absolute;
+  right: 250px;
     color: #FFFFFF;
+    
     background-color:#38a3a5;
     border: 2px solid #FFFFFF;
     border-radius: 10px;
