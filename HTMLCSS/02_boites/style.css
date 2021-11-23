@@ -1,7 +1,11 @@
+
 body{
     color:#FFFFFF;
     background-color:#22577a;
 }
+
+
+
 
 h1{
     display: inline-block;    
@@ -17,13 +21,14 @@ h1{
 .etat-civil{
     display:inline-block;    
     margin-left: 100px;
-    
+    position:absolute;
+    right: 250px;
     
 }
 h2{
     display: inline-block;  
     position: absolute;
-  right: 250px;
+    right: 250px;
     color: #FFFFFF;
     
     background-color:#38a3a5;
@@ -51,7 +56,12 @@ h2{
         
     }
 .competences-left{
-    display:block;
+    display:inline-block;
+    width: 500px;
+    vertical-align: center;
+    text-align: justify;
+    font-style: oblique;
+   
 }
 .competences-right{
     display:block;
@@ -75,6 +85,5 @@ h2{
    
 }
 .travel-right{
-    display:inline-block;
-    
+    display:inline-block;  
 }
