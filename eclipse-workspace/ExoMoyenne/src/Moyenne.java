@@ -17,11 +17,11 @@ public class Moyenne {
 		
 		//SAISIE
 		//ecrire "Veuillez-saisir le 1er nombnre:"
-		Systeme.out.println("Veuillez-saisir le 1er nombre:");
+		System.out.println("Veuillez-saisir le 1er nombre:");
 		//lire nombre1
-		Scanner sc = new Scanner(system.in);//creer un outil scanner
+		Scanner sc = new Scanner(System.in);//creer un outil scanner
 		nombre1 = sc.nextFloat();
-		System.out.println("Vous avez saisie nombre1="+nombre1)
+		System.out.println("Vous avez saisie nombre1="+nombre1);
 	}
 
 }
