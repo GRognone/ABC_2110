@@ -31,9 +31,9 @@ public class AireSphere {
 		volume = (double)(4*Math.PI*Math.pow(10,3)/3);
 		//AFFICHAGE
 		//ecrire "L'aire de la sphere est de :",aire
-		System.out.println("L'aire de la spere est de:"+aire);
+		System.out.println("L'aire de la sphere est de:"+aire);
 		//ecrire "Le volume de la sphere est de :"volume
-		System.out.println("Le volume de la sphère est de:"+volume);
+		System.out.println("Le volume de la sphere est de:"+volume);
 		
 				
 	}

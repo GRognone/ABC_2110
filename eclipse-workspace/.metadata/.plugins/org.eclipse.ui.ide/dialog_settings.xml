@@ -13,6 +13,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/gerardrognone/Desktop/ABC dev/Dev/ABC_2110/eclipse-workspace"/>
 			<item value="C:\Users\GRognone\Documents\GitHub\Dev\ABC_2110\eclipse-workspace"/>
 		</list>
 	</section>
