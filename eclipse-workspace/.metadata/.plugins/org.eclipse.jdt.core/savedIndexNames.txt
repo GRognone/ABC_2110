@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/gerardrognone/Desktop/ABC dev/Dev/ABC_2110/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3832269998.index
+1865797976.index
+913131989.index
