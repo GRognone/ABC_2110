@@ -16,12 +16,17 @@ public class Moyenne {
 		float moyenne;
 		
 		//SAISIE
-		//ecrire "Veuillez-saisir le 1er nombnre:"
+		//ecrire "Veuillez-saisir le 1er nombre:"
 		System.out.println("Veuillez-saisir le 1er nombre:");
 		//lire nombre1
 		Scanner sc = new Scanner(System.in);//creer un outil scanner
 		nombre1 = sc.nextFloat();
-		System.out.println("Vous avez saisie nombre1="+nombre1);
+		System.out.println("Vous avez saisie nombre 1 : "+nombre1);
+		//ecrire "Veuillez-saisir le 2ème nombre:"
+		System.out.println("Veuillez-saisir le 2ème nombre:");
+		//lire nombre2
+		nombre2 = sc.nextFloat();
+		System.out.println("Vous avez saisie nombre 2 : "+nombre2);
 	}
 
 }
