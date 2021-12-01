@@ -8,11 +8,11 @@ public class Moyenne {
 		
 		// DECLARATION DES VARIABLES
 		
-		//Réel nombre1
+		//Reel nombre1
 		float nombre1;
-		//Réel nombre2
+		//Reel nombre2
 		float nombre2;
-		//Réel moyenne
+		//Reel moyenne
 		float moyenne;
 		
 		//SAISIE
@@ -22,8 +22,8 @@ public class Moyenne {
 		Scanner sc = new Scanner(System.in);//creer un outil scanner
 		nombre1 = sc.nextFloat();
 		System.out.println("Vous avez saisie nombre 1 : "+nombre1);
-		//ecrire "Veuillez-saisir le 2ème nombre:"
-		System.out.println("Veuillez-saisir le 2ème nombre:");
+		//ecrire "Veuillez-saisir le 2eme nombre:"
+		System.out.println("Veuillez-saisir le 2eme nombre:");
 		//lire nombre2
 		nombre2 = sc.nextFloat();
 		System.out.println("Vous avez saisie nombre 2 : "+nombre2);
