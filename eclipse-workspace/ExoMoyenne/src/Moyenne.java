@@ -23,7 +23,7 @@ public class Moyenne {
 		nombre1 = sc.nextFloat();
 		System.out.println("Vous avez saisie nombre 1 : "+nombre1);
 		//ecrire "Veuillez-saisir le 2eme nombre:"
-		System.out.println("Veuillez-saisir le 2eme nombre:");
+		System.out.println("Veuillez-saisir le 2 eme nombre:");
 		//lire nombre2
 		nombre2 = sc.nextFloat();
 		System.out.println("Vous avez saisie nombre 2 : "+nombre2);
