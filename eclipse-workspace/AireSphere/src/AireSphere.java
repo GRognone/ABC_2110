@@ -28,7 +28,7 @@ public class AireSphere {
 		// aire < - - 4*Math.PI*Math.pow(rayonr,2)
 		aire =  (double)(4*Math.PI*Math.pow (rayonr,2));
 		// volume < - - 4*Math.PI*Math.pow(rayonr,3)/3 
-		volume = (double)(4*Math.PI*Math.pow(rayonr,3)/3);
+		volume = (double)(4*Math.PI*Math.pow(10,3)/3);
 		//AFFICHAGE
 		//ecrire "L'aire de la sphere est de :",aire
 		System.out.println("L'aire de la sphere est de:"+aire);
