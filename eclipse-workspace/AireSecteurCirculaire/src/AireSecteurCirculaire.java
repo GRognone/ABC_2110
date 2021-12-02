@@ -14,7 +14,7 @@ public class AireSecteurCirculaire {
 		//Reel aire
 		double aire;
 
-			//SAISIE
+		//SAISIE
 		//ecrire " Veuillez-saisir le rayon :"
 		System.out.println("Veuillez-saisir le rayon:");
 		//lire rayonr
@@ -26,6 +26,7 @@ public class AireSecteurCirculaire {
 		//lire anglea
 		anglea = sc.nextFloat();
 		System.out.println("Vous avez saisi l'angle"+anglea);		
+		
 		//TRAITEMENT
 		//aire< - - Math.PI*Math.pow(rayonr,2)*anglea/360
 		aire = (double)((Math.PI*Math.pow(rayonr,2)*anglea)/	360);
