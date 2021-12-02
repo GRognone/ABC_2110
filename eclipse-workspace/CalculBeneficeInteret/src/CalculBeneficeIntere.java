@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class CalculBeneficeIntere {
@@ -31,7 +32,7 @@ public class CalculBeneficeIntere {
 		//lire interesi
 		interesi = sc.nextFloat();
 		System.out.println("Vous avez saisi le taux d'interets annuel"+interesi);
-		//ecrire " Veulliez saisir le nombre d'année"
+		//ecrire " Veulliez saisir le nombre d'annï¿½e"
 		System.out.println("Veuillez-saisir le nombre d'annee");
 		//lire nombreanneesn
 		nombreanneesn = sc.nextFloat();
@@ -44,11 +45,12 @@ public class CalculBeneficeIntere {
 			valeuracquisecomposee = (double)(sommeinitiales*(Math.pow((1+interesi),nombreanneesn)));
 			
 		//AFFICHAGE
+			DecimalFormat df = new DecimalFormat("0.00");
 			
 		//ecrire "La valeur acquise simple est de :"
-		System.out.println("La valeur acquise simple est de :"+valeuracquisesimple);	
-		//ecrire "La valeur acquise composée est de :"
-		System.out.println("La valeur acquise composée est de :"+valeuracquisecomposee);
+		System.out.println("La valeur acquise simple est de :"+df.format(valeuracquisesimple));	
+		//ecrire "La valeur acquise composee est de :"
+		System.out.println("La valeur acquise composee est de :"+df.format(valeuracquisecomposee));
 		
 		
 	}
