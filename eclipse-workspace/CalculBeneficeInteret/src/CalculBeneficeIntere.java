@@ -52,7 +52,7 @@ public class CalculBeneficeIntere {
 		//ecrire "La valeur acquise composee est de :"
 		System.out.println("La valeur acquise composee est de :"+df.format(valeuracquisecomposee));
 		
-		
+		//FIN
 	}
 		
 }
