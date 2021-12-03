@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class InversiondeBloc {
@@ -38,10 +39,11 @@ public class InversiondeBloc {
 		nombreb = temp;
 		
 		//AFFICHAGE
+		DecimalFormat df = new DecimalFormat("0.00");
 		//ecrire " Le nombre a est :"
-		System.out.println("Le nombre a est :"+nombrea);
+		System.out.println("Le nombre a est :"+df.format(nombrea));
 		//ecrire "Le nombre b est :"
-		System.out.println("le nombre b est :"+nombreb);
+		System.out.println("le nombre b est :"+df.format(nombreb));
 	}
 
 }
