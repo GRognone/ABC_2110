@@ -26,7 +26,7 @@ public class CalculBeneficeIntere {
 		//lire sommeinitiales
 		Scanner  sc= new Scanner(System.in);//creer un scanner
 		sommeinitiales = sc.nextFloat();
-		System.out.println("Vous avez saisi la somme initiale "+sommeinitiales+" €");
+		System.out.println("Vous avez saisi la somme initiale "+sommeinitiales+" euros");
 		//ecrire "Veuillez-saisir le taux d'interets annuel"
 		System.out.println("Veuillez saisir le taux d'interets annuel");
 		//lire interesi
@@ -48,9 +48,9 @@ public class CalculBeneficeIntere {
 			DecimalFormat df = new DecimalFormat("0.00");
 			
 		//ecrire "La valeur acquise simple est de :"
-		System.out.println("La valeur acquise simple est de :"+df.format(valeuracquisesimple)+" €");	
+		System.out.println("La valeur acquise simple est de :"+df.format(valeuracquisesimple)+" euros");	
 		//ecrire "La valeur acquise composee est de :"
-		System.out.println("La valeur acquise composee est de :"+df.format(valeuracquisecomposee)+" €");
+		System.out.println("La valeur acquise composee est de :"+df.format(valeuracquisecomposee)+" euros");
 		
 		//FIN
 	}
