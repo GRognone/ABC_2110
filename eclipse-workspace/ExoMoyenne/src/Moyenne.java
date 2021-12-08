@@ -16,6 +16,7 @@ public class Moyenne {
 		float moyenne;
 		
 		//SAISIE
+		
 		//ecrire "Veuillez-saisir le 1er nombre:"
 		System.out.println("Veuillez-saisir le 1er nombre:");
 		//lire nombre1
@@ -28,9 +29,12 @@ public class Moyenne {
 		nombre2 = sc.nextFloat();
 		System.out.println("Vous avez saisie nombre 2 : "+nombre2);
 		
-		//Traitement
+		//TRAITEMENT
+		
 		//moyenne <-- (nombre1+nombre2)/2
 		moyenne = (nombre1+nombre2)/2;
+		
+		/*
 		//Si (moyenne >=10) Alors
 		if (moyenne>=10) {
 			//
@@ -40,15 +44,23 @@ public class Moyenne {
 		//	moyenne < - - +1
 			moyenne=moyenne+1;
 		//FinSi
+		 	}
+		 */
+	
+		//Si (moyenne <10) Alors
+		if (moyenne < 10) {
+			
+		//moyenne<- -moyenne + 1
+			moyenne = moyenne + 1;
+			
+			//FinSi
 		}
 		
 		//AFFICHAGE
+		
 		//ecrire " La moyenne des 2 nombres est de :",moyenne
 		System.out.println("La moyenne des 2 nombres est de :"+moyenne);
-		
-		
-		
-		
+	
 	}
 
 }
