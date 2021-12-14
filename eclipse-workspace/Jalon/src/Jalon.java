@@ -21,7 +21,7 @@ public class Jalon {
 		System.out.println("Veuillez-saisir votre nom");
 		nom = sc.next();
 		//ecrire "Veuillez saisir le numero de votre departement"
-		System.out.println("Veuillez-saisir le numéro de votre département");
+		System.out.println("Veuillez-saisir le numero de votre departement");
 		departement = sc.next();
 		
 		//Traitement
