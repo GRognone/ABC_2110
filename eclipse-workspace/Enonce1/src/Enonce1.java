@@ -38,25 +38,17 @@ public class Enonce1 {
 			//lire compris2
 			compris2 = sc.next();
 			//FinSi
-			
-					//Si		(compris2 = = "non")
-					if(compris2.equals("non")) {
 
-						//ecrire" Demandez des renseignements au formateur"
-						System.out.println("Demandez des renseignements au formateur");
-						//FinSi
-					}
+			//Si		(compris2 = = "non")
+			if(compris2.equals("non")) {
+
+				//ecrire" Demandez des renseignements au formateur"
+				System.out.println("Demandez des renseignements au formateur");
+				//FinSi
+			}
 		}
-					
+
 		// ecrire " Effectuez le travail demande"
 		System.out.println("Effectuez le travail demande");									
 	}
 }
-
-
-
-
-
-
-
-
