@@ -106,6 +106,7 @@ public class Enonce2 {
 		// FinSi
 		}
 		//FinSi
+		sc.close(); // fermeture du scanner
 		}
 	}
 

@@ -7,22 +7,24 @@ public class JeuDesDoigts {
 
 		//DECLATATION
 		
-	int doigtsjoueura;
-	int doigtsjoueurb;
+	int doigtsjoueura ;
+	int doigtsjoueurb ;
 	int somme;
 	
 	//Saisie
 	
-	//ecrire " Veuillez-saisir le nombre des doigts du joueur a : "
-	System.out.println( " Veuillez-saisir le nombre des doigts du joueur a : ");
+		//ecrire " Veuillez-saisir le nombre des doigts du joueur a : "
+	System.out.println( " Veuillez-saisir le nombre des doigts de la main droite du joueur a : ");
 	//lire doigtsjoueura
 	Scanner sc = new Scanner(System.in);//creer un outil scanner
 	doigtsjoueura = sc.nextInt();
 	//ecrire " Veuillez-saisir le nombre des doigts du joueur b : "
-		System.out.println( " Veuillez-saisir le nombre des doigts du joueur b : ");
+		System.out.println( " Veuillez-saisir le nombre des doigts de la main droite du joueur b : ");
 		//lire doigtsjoueurb
 		doigtsjoueurb = sc.nextInt();
-		
+	
+
+	
 		//TRAITEMENT
 		
 		//<- - reste (doigtsjoueura + reste joueurb)(modulo2)>

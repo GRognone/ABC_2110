@@ -10,10 +10,10 @@ public class Enonce1 {
 
 		//Chaine compris
 		String compris;
-		//Chaine compris2
-		String compris2;
+		
 
 		//Saisie
+
 		//ecrire"Effectuez une lecture attentive de l'enonce"
 		System.out.println("Effectuez une lecture attentive de l'enonce");
 		//ecrire"Avez-vous compris l'enonce"
@@ -27,7 +27,7 @@ public class Enonce1 {
 		//TRAITEMENT
 
 
-		//Si			(compris = = "non")
+		//Si			(compris == "non")
 		if (compris.equals("non")) {
 
 
@@ -35,20 +35,26 @@ public class Enonce1 {
 			System.out.println("Effectuez une relecture de l'enonce");
 			//ecrire"Avez-vous compris l'enonce"
 			System.out.println("Avez-vous compris l'enonce cette fois ci ? oui/non ");
+			
+			//Chaine compris2
+			String compris2;
 			//lire compris2
 			compris2 = sc.next();
-			//FinSi
 
-			//Si		(compris2 = = "non")
+			//Si		(compris2 == "non")
 			if(compris2.equals("non")) {
 
 				//ecrire" Demandez des renseignements au formateur"
 				System.out.println("Demandez des renseignements au formateur");
-				//FinSi
 			}
+			//FinSi
+
 		}
+		//FinSi
 
 		// ecrire " Effectuez le travail demande"
-		System.out.println("Effectuez le travail demande");									
+		System.out.println("Effectuez le travail demande");
+		sc.close(); // fermeture du scanner
 	}
+
 }
