@@ -24,6 +24,7 @@ public class Enonce2 {
 		// ecrire "Fera-t-il beau?"
 
 		Scanner sc = new Scanner(System.in);// creer un scanner
+		
 		do
 		{
 			System.out.println("Fera-t-il beau? oui/non");
@@ -54,23 +55,25 @@ public class Enonce2 {
 				System.out.println(
 						"J'espere que les reparations seront immediates sinon je devrai renoncer a la balade en bicyclette.");
 				// ecrire " Les reparations peuvent-elle etre immediates? oui/non"
-				System.out.println(" Les reparations peuvent-elle etre immediates? oui/non");
-			}
 
-			else {
-				// ecrire "J'irais faire de la bicyclette."
-				System.out.println("J'irais faire de la bicyclette.");
-			}
+				do
+				{
+					System.out.println(" Les reparations peuvent-elle etre immediates? oui/non");
+					reparationimmediate = sc.next();
+				} while (!reparationimmediate.equals("oui") && !reparationimmediate.equals("non"));
 
-			reparationimmediate = sc.next();
-			// Si reparationimmediate ("non")
-			if (reparationimmediate.equals("non")) {
-				// ecrire "Comme je veux de toute facon profiter du beau temps, si mon velo
-				// n'est pas utilisable, j'irai a pied jusqu'a l'etang pour cueillir les joncs.
-				System.out.println(
-						"Comme je veux de toute facon profiter du beau temps, si mon velo n'est pas utilisable, j'irai a pied jusqu'a l'etang pour cueillir les joncs.");
+				// Si reparationimmediate ("non")
+				if (reparationimmediate.equals("non")) {
+					// ecrire "Comme je veux de toute facon profiter du beau temps, si mon velo
+					// n'est pas utilisable, j'irai a pied jusqu'a l'etang pour cueillir les joncs.
+					System.out.println(
+							"Comme je veux de toute facon profiter du beau temps, si mon velo n'est pas utilisable, j'irai a pied jusqu'a l'etang pour cueillir les joncs.");
+				}
+				else {
+					// ecrire "J'irais faire de la bicyclette."
+					System.out.println("J'irais faire de la bicyclette.");
+				}
 			}
-
 			else {
 				// ecrire "J'irais faire de la bicyclette."
 				System.out.println("J'irais faire de la bicyclette.");
@@ -84,17 +87,26 @@ public class Enonce2 {
 
 			System.out.println(
 					"Il ne fait pas beau, je consacre ma journee a la lecture. J'aimerais relire Madame Bovary,  j'espere retrouver ce livre, il doit etre dans la bibliotheque du salon.");
+
 			// ecrire "Le livre Madame Bovary est-il dans le salon? oui/non"
-			System.out.println("Le livre Madame Bovary est-il dans le salon? oui/non");
-			bovarysalon = sc.next();
+			do
+			{
+				System.out.println("Le livre Madame Bovary est-il dans le salon? oui/non");
+				bovarysalon = sc.next();
+			} while (!bovarysalon.equals("oui") && !bovarysalon.equals("non"));
+
+
 
 			// Si Bovarysalon("non")
 			if (bovarysalon.equals("non")) {
 				// ecrire "Je ne le retrouve pas, je vais a la bibliotheque municipale pour le
 				// trouver."
 				System.out.println("Je ne le retrouve pas, je vais a la bibliotheque municipale pour le trouver.");
-				System.out.println("Le livre Madame Bovary est-il disponible a la bibliotheque municipale? oui/non");
-				bovarymunicipale = sc.next();
+				do
+				{
+					System.out.println("Le livre Madame Bovary est-il disponible a la bibliotheque municipale? oui/non");
+					bovarymunicipale = sc.next();
+				} while (!bovarymunicipale.equals("oui") && !bovarymunicipale.equals("non"));
 
 				// Si bovarymunicipale("non")
 				if (bovarymunicipale.equals("non")) {

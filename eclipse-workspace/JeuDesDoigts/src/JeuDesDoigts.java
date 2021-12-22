@@ -14,17 +14,19 @@ public class JeuDesDoigts {
 		//Saisie
 
 		//ecrire " Veuillez-saisir le nombre des doigts du joueur a : "
-		System.out.println( " Veuillez-saisir le nombre des doigts de la main droite du joueur a : ");
+		
+		
 		//lire doigtsjoueura
-		do {
-			doigtsjoueura = sc.nextInt();
+		do {System.out.println( " Veuillez-saisir le nombre des doigts de la main droite du joueur a : ");
+					doigtsjoueura = sc.nextInt();
 		} while(doigtsjoueura <=0 || doigtsjoueura >5);
 
 
 		//ecrire " Veuillez-saisir le nombre des doigts du joueur b : "
-		System.out.println( " Veuillez-saisir le nombre des doigts de la main droite du joueur b : ");
+		
 		//lire doigtsjoueurb
 		do {
+			System.out.println( " Veuillez-saisir le nombre des doigts de la main droite du joueur b : ");
 			doigtsjoueurb = sc.nextInt();
 		} while(doigtsjoueurb <=0 || doigtsjoueurb >5);
 
