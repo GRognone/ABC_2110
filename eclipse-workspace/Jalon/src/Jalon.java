@@ -33,6 +33,7 @@ public class Jalon {
 		System.out.println(adressemail1);
 		//ecrire adressemail2
 		System.out.println(adressemail2);
+		sc.close();
 	}
 	
 }
