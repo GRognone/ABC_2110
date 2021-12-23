@@ -5,8 +5,6 @@ public class ClassementNombre1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-
-
 		//DECLARATION
 
 		//reel = nombrea
@@ -41,5 +39,3 @@ public class ClassementNombre1 {
 	}
 
 }
-
-
