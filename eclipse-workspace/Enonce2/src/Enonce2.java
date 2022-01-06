@@ -28,7 +28,7 @@ public class Enonce2 {
 		do
 		{
 			System.out.println("Fera-t-il beau? oui/non");
-			beautemps = sc.next();
+			beautemps = sc.next().toLowerCase();
 		} while (!beautemps.equals("oui") && !beautemps.equals("non"));
 
 		// TRAITEMENT
