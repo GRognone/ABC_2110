@@ -3,9 +3,11 @@ import java.util.Scanner;
 
 public class ExempleExercicesBoucles {
 
+	static Scanner sc2 = null ;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		/*
 		// utilisation de la boucle for
 		int i;
@@ -15,7 +17,7 @@ for (i=1;i<=3;i++) {
 	}
 }
 		 */
-		
+
 		/*
 		 //Utilisation de la boucle while
 		String ilFaitBeau;
@@ -34,7 +36,7 @@ for (i=1;i<=3;i++) {
 	}
 }
 		 */
-		
+
 		/*
 String temperature;
 System.out.println("Est ce ma temperature est inferieur a 38 degres ?oui/non");
@@ -54,25 +56,50 @@ sc.close();
 }
 		 */
 
-		float temperature;
-				Scanner sc = new Scanner(System.in);
-				
-				
+
+		float temperature=0;
+		boolean estUnFormatFloat=true;	
 		do {
 			System.out.println("Quelle est ma temperature?");
-			temperature = sc.nextFloat();
+			estUnFormatFloat=true;
+			try
+			{
+				sc2 = new Scanner(System.in);		
+				temperature = sc2.nextFloat();
+				//sc2.close();
+			}
+			catch(InputMismatchException e)
+			{
+				estUnFormatFloat=false;
+			}
 		}
-		while (temperature<35 || temperature>45 );
-		
-		
-
+		while (temperature<35 || temperature>45 || (estUnFormatFloat==false ));
+		//Scanner sc = new Scanner(System.in);
 		while (temperature<=38)
 		{
 			System.out.println("Je me balade sans contaminer de monde, quoi que...");
-			System.out.println("Ma tempereture est-elle toujours la  meme?");
-			temperature=sc.nextFloat();
+			do{
+				System.out.println("Ma temperature est-elle toujours la  meme?");
+				estUnFormatFloat=true;
+				try
+				{
+					sc2 = new Scanner(System.in);		
+					temperature = sc2.nextFloat();
+					//sc2.close();
+				}
+				catch(InputMismatchException e)
+				{
+					estUnFormatFloat=false;
+				}
+			}
+			while (temperature<35 || temperature>45 || (estUnFormatFloat==false ));
+			//Scanner sc = new Scanner(System.in);
+			while (temperature<=38)
+
+			temperature=sc2.nextFloat();
+			System.out.println("Youpi c'est la fête!!!");
 		}
 		System.out.println(" Comme je suis genereux je partage mon covid avec tout le monde !!!");
-		sc.close();
+		sc2.close();
 	}
 }
