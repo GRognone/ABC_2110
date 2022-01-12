@@ -27,11 +27,11 @@ for (i=1;i<=3;i++) {
 		while (ilFaitBeau.equals("oui"))
 		{
 			//TRAITEMENT
-			System.out.println("je me promène dans le jardin");
+			System.out.println("je me promï¿½ne dans le jardin");
 			System.out.println("Est ce qu'il fait toujours beau? oui/non");
 			ilFaitBeau= sc.next();
 		}
-		System.out.println("Je rentre à la maison");
+		System.out.println("Je rentre ï¿½ la maison");
 		sc.close();	
 	}
 }
@@ -46,7 +46,7 @@ temperature = sc.next();
 while (temperature.equals("oui"))
 {
 	//TRAITEMENT
-	System.out.println("je me promène dans le jardin");
+	System.out.println("je me promï¿½ne dans le jardin");
 	System.out.println("Est ce ma temperature est toujours inferieure a 38 degres? oui/non");
 	temperature= sc.next();
 }
@@ -95,9 +95,9 @@ sc.close();
 			while (temperature<35 || temperature>45 || (estUnFormatFloat==false ));
 			//Scanner sc = new Scanner(System.in);
 			while (temperature<=38)
-
+				System.out.println("Youpi c'est la fï¿½te!!!");
 			temperature=sc2.nextFloat();
-			System.out.println("Youpi c'est la fête!!!");
+			
 		}
 		System.out.println(" Comme je suis genereux je partage mon covid avec tout le monde !!!");
 		sc2.close();
