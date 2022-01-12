@@ -91,12 +91,7 @@ sc.close();
 				}
 			}
 			while (temperature<35 || temperature>45 || (estUnFormatFloat==false ));
-			//Scanner sc = new Scanner(System.in);
-
-			while (temperature<=38) {
-				System.out.println("Youpi c'est la fete!!!");
-			temperature=sc2.nextFloat();
-			}
+						
 			if (temperature<=38) {
 				System.out.println("Youpi c'est la fete !!!");
 			} 
