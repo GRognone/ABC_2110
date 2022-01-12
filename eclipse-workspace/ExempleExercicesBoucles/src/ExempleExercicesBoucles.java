@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ExempleExercicesBoucles {
 
 	static Scanner sc2 = null ;
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -66,7 +66,6 @@ sc.close();
 			{
 				sc2 = new Scanner(System.in);		
 				temperature = sc2.nextFloat();
-				//sc2.close();
 			}
 			catch(InputMismatchException e)
 			{
@@ -85,7 +84,6 @@ sc.close();
 				{
 					sc2 = new Scanner(System.in);		
 					temperature = sc2.nextFloat();
-					//sc2.close();
 				}
 				catch(InputMismatchException e)
 				{
@@ -94,10 +92,18 @@ sc.close();
 			}
 			while (temperature<35 || temperature>45 || (estUnFormatFloat==false ));
 			//Scanner sc = new Scanner(System.in);
-			while (temperature<=38)
-				System.out.println("Youpi c'est la f�te!!!");
+
+			while (temperature<=38) {
+				System.out.println("Youpi c'est la fete!!!");
 			temperature=sc2.nextFloat();
-			
+			}
+			if (temperature<=38) {
+				System.out.println("Youpi c'est la fete !!!");
+			} 
+			else {
+				System.out.println(" Comme je suis genereux je partage mon covid avec tout le monde !!!");
+			}
+			temperature=sc2.nextFloat();
 		}
 		System.out.println(" Comme je suis genereux je partage mon covid avec tout le monde !!!");
 		sc2.close();
