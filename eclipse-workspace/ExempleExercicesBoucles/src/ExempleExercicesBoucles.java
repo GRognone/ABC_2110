@@ -8,7 +8,7 @@ public class ExempleExercicesBoucles {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		/*
+		
 		// utilisation de la boucle for
 		int i;
 for (i=1;i<=3;i++) {
@@ -16,7 +16,7 @@ for (i=1;i<=3;i++) {
 }
 	}
 }
-		 */
+		 
 
 		/*
 		 //Utilisation de la boucle while
@@ -46,7 +46,7 @@ temperature = sc.next();
 while (temperature.equals("oui"))
 {
 	//TRAITEMENT
-	System.out.println("je me prom�ne dans le jardin");
+	System.out.println("je me promene dans le jardin");
 	System.out.println("Est ce ma temperature est toujours inferieure a 38 degres? oui/non");
 	temperature= sc.next();
 }
@@ -54,9 +54,9 @@ System.out.println("Je vais voir le medecin");
 sc.close();	
 }
 }
-		 */
+		
 
-
+/*
 		float temperature=0;
 		boolean estUnFormatFloat=true;	
 		do {
@@ -104,3 +104,4 @@ sc.close();
 		sc2.close();
 	}
 }
+*/
