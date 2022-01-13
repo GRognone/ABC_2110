@@ -8,9 +8,8 @@ public class DeterminerLesDiviseurs {
 		int nombreN;
 		int diviseur;
 		boolean pasdautreque1etN = false;
-
 		Scanner sc = new Scanner(System.in);
-
+		
 		System.out.println("Saisisez un nombre entier");
 		nombreN=sc.nextInt();
 
@@ -19,14 +18,14 @@ public class DeterminerLesDiviseurs {
 		for (diviseur = 2;diviseur<=(nombreN-1);diviseur++) {
 			if (nombreN%diviseur==0){
 				System.out.print(diviseur+ " . ");
-			}
-			if (nombreN%diviseur==1 && !pasdautreque1etN) {
-				System.out.println("Il n'y a pas d'autre diviseurs que 1 et N.");
 				pasdautreque1etN = true;
-
 			}
 			sc.close();
-
 		}
+		if (!pasdautreque1etN) {
+			System.out.println("Il n'y a pas d'autre diviseurs que 1 et N.");
+		}
+		sc.close();
 	}
 }
+
