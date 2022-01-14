@@ -8,7 +8,7 @@ public class ExempleExercicesBoucles {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
+	/*	
 		// utilisation de la boucle for
 		int i;
 for (i=1;i<=3;i++) {
@@ -54,9 +54,9 @@ System.out.println("Je vais voir le medecin");
 sc.close();	
 }
 }
-		
+		*/
 
-/*
+
 		float temperature=0;
 		boolean estUnFormatFloat=true;	
 		do {
@@ -104,4 +104,3 @@ sc.close();
 		sc2.close();
 	}
 }
-*/
