@@ -15,7 +15,7 @@ public class DeterminerLesDiviseurs {
 
 		System.out.println("Les diviseurs sont les suivants :");
 
-		for (diviseur = 2;diviseur<=(nombreN-1);diviseur++) {
+		for (diviseur = 2;diviseur<(nombreN-1);diviseur++) {
 			if (nombreN%diviseur==0){
 				System.out.print(diviseur+ " . ");
 				pasdautreque1etN = true;
