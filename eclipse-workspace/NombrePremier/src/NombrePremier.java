@@ -9,7 +9,7 @@ public class NombrePremier {
 		int nombreN;
 		//boolean estPremier = false;
 		int diviseurTeste;
-		int estPremier =  0;
+		boolean estPremier =  false;
 
 		Scanner sc = new Scanner(System.in);//creation d'un scanner
 		//SAISIE
@@ -19,10 +19,10 @@ public class NombrePremier {
 		nombreN = sc.nextInt();
 		// TRAITEMENT
 		if (nombreN>1){ // LE NOMNRE EST SUPPERIEUR A 1
-			estPremier = 1;
+			estPremier = true;
 			if (nombreN%2 == 0) { // LE NOMBRE EST PAIR
 				if (nombreN != 2) { // LE NOMBRE EST DIFFERENT DE 2
-					estPremier = 0;
+					estPremier = false;
 				}
 
 			} else { // LE NOMBRE N SERA IMPAIRE
@@ -33,12 +33,12 @@ public class NombrePremier {
 					
 				}
 				if (diviseurTeste != nombreN) {
-					estPremier = 0;
+					estPremier = false;
 				}
 					
 			}
 		}
-		if (estPremier == 1) {
+		if (estPremier ) {
 			System.out.println(nombreN + " est un nombre premier");
 		} else {
 			System.out.println(nombreN + " n'est pas un nombre permier");
