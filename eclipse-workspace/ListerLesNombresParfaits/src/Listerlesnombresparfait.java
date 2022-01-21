@@ -5,37 +5,31 @@ public class Listerlesnombresparfait {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner  sc = new Scanner(System.in);
+
 		int combien;
-		long nombreparfait;
-
-
-		long nombre=0;
+		long nombreParfaitTrouve=0;
+		long nombre=1;//*Valeur minimum du nombre
 		long diviseur;
-		boolean pasdautrequeN = false;
 		long sommediviseurs = 0;
 
+		System.out.println("Combien souhaitez-vous afficher de nombre parfait?");
+		combien = sc.nextInt();
+		System.out.println("Les nombres parfaits sont les suivants");
 
-		System.out.println("Combien de nombre parfait souhaitez-vous  afficher s'il vous plait?");
-		combien=sc.nextInt();
-		for (int i=0;i<combien;i++) {
-
-
-			// calcul des nombres parfait
-
+		while (nombreParfaitTrouve<combien) {
 
 			for (diviseur = 1;diviseur<(nombre-1);diviseur++) {
 				if (nombre%diviseur==0){
 					sommediviseurs += diviseur;
-					pasdautrequeN = true;			
 				}	
 			}
-
-			if (sommediviseurs==diviseur){
+			if  (sommediviseurs==nombre){
+				nombreParfaitTrouve++;
+				System.out.println (nombre +" ");//*valeur du nombre parfait trouve (Anciennement System.out.println (nombreParfaitTrouve +" ")
 			}
-			System.out.println(" Les "+combien+" nombres parfait sont:");
-			System.out.println(/*nombreparfait+*/ " " );
+			sommediviseurs = 0;//** rajouter pour reinitialiser somme diviseurs
+			nombre++;
 		}
 		sc.close();
 	}
 }
-
