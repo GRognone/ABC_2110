@@ -17,6 +17,7 @@ public class Robot { 		// Création des attributs de la classe
 		positionY=0;
 		positionZ=0;
 	}
+	//constructeur classique: il donne les valeurs passées en parametre aux attributs
 	public Robot (String numeroDeSerie,
 			boolean _enMarche,
 			String _typeDeDeplacement,
@@ -25,48 +26,38 @@ public class Robot { 		// Création des attributs de la classe
 			float _positionY,
 			float _positionZ) {
 
-		this .numeroDeSerie = numeroDeSerie;
-			enMarche = _enMarche;
-			aDesBras = _enMarche;
-			positionX = _positionX;
-			positionY = _positionY;
-			positionZ = _positionZ;
-		}
-	
+		this.numeroDeSerie=numeroDeSerie;
+		enMarche=_enMarche;
+		typeDeDeplacement=_typeDeDeplacement;
+		this.aDesBras=aDesBras;
+		positionX=_positionX;
+		positionY=_positionY;
+		positionZ=_positionZ;
+	}
 
-	// fonction : il renvois un boolean , ici la valeur du boolean est "true"
-	public boolean caVa(boolean ilFaitBeau) {
-		if ( ilFaitBeau){
+	//fonction: il renvoie un boolean, ici true
+	public boolean caVa(boolean ilfaitbeau) {
+		if (ilfaitbeau==true) {
 			return true;
 		}
-		else {
+		else
+		{
 			return false;
 		}
 	}
-/*
-	// procedure : ne renvois rien ( void = rien)
-	public void caVa(){
+	//procedure: ne renvoie rien (void=rien)
+	public void caVa() {
 	}
-	// Opérations 
-
-	public boolean demarrer(){
-		return true;
+	public boolean demarrer()
+	{
+		if (enMarche==true)
+		{
+			return false;
+		}
+		else
+		{
+			enMarche=true;
+			return true;
+		}
 	}
-	public boolean arreter() {
-		return false;
-	}
-	public boolean seDeplacer(float positionX, float positionY) {
-		return true;
-	}
-	public boolean sauter(float hauteur) {
-		return true;
-	}
-	public boolean attraperDesObjets() {
-		return true;
-	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-*/
-	}
-
-
+}
