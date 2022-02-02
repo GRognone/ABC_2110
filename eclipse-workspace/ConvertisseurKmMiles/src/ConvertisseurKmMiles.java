@@ -28,6 +28,7 @@ public class ConvertisseurKmMiles {
 				System.out.println(" La distance  "+kilometres+" km en miles est de: "+miles+ "  miles.");
 			}
 		}
+		
 		sc.close();
 	}
 }
