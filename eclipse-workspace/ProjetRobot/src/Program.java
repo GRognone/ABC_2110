@@ -14,6 +14,7 @@ public class Program {
 		ilfaitbeauAujourdhui=false;
 		boolean lerobotvabien2 = robotNono.caVa(ilfaitbeauAujourdhui);
 		boolean areussi = robotNono.demarrer();
-		boolean areussiPour3= robotParDefault2.demarrer();
+		boolean areussiPour3= robotParDefaut2.demarrer();
+		sc.close();
 	}
 }
