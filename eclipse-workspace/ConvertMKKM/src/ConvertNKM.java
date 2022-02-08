@@ -33,7 +33,7 @@ public class ConvertNKM {
 		while(!uniteDeMesure.equals("mi") && !uniteDeMesure.equals("km"));
 
 		if (uniteDeMesure.equals("km")){
-			conversion = (valeur /1.609);
+			conversion = ((valeur *9/5)+32);
 			System.out.println("La distance " +valeur+ " en Km vaut "+conversion+" Miles");
 		}
 		else {

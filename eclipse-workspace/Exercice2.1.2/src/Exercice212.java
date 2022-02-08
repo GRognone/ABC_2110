@@ -6,7 +6,7 @@ public class Exercice212 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
-		float distanceAConvertir;
+		String distanceAConvertir;
 		double distanceConvertieEnKm;
 		double distanceConvertieEnMiles;
 		
