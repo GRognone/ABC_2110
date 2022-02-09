@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ConvertisseurDegresFahrenheit {
+public class ConversionIntervalle {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -51,3 +51,4 @@ public class ConvertisseurDegresFahrenheit {
 		sc.close();
 	}
 }
+	
