@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
-public class ConvertisseurDegresFahrenheit {
+public class RodySoluce {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		Scanner sc = new Scanner (System.in);
 		String temperatureAConvertir;
 		String [ ] tableauDeConversion;
@@ -31,14 +30,7 @@ public class ConvertisseurDegresFahrenheit {
 			}
 			while(!uniteDeMesure.equals("C") && !uniteDeMesure.equals("F"));
 
-			if (uniteDeMesure.equals("F")){
-				conversion = ((valeur -32)*5/9);
-				System.out.println("La temperature " +valeur+ " F = "+conversion+" C ");
-			}
-			else {
-				conversion = ((valeur*9/5)+32); 
-				System.out.println("La temperature "+valeur+" C =  "+conversion+" F ");
-			}
+			convertir(tableauDeConversion);
 			reponse = "";
 			while(!reponse.equals( "o") && !reponse.equals("n"))
 			{
@@ -48,5 +40,27 @@ public class ConvertisseurDegresFahrenheit {
 		}
 		System.out.println(" Au revoir");
 		sc.close();
+	}
+	
+	public static float convertir(String[] split) {
+		String uniteDeMesure;
+		if (split.length > 1) { //  "length > 1 " case du chiffre saisi soit 0
+			uniteDeMesure = split[1];
+		}
+		else {
+			uniteDeMesure = "C";
+		}
+		int valeur = Integer.valueOf(split[0]);
+		float conversion;
+		
+		if (uniteDeMesure.equals("F")){
+			conversion = ((valeur -32)*5/9);
+			System.out.println("La temperature " +valeur+ " F = "+conversion+" C ");
+		}
+		else {
+			conversion = ((valeur*9/5)+32); 
+			System.out.println("La temperature "+valeur+" C =  "+conversion+" F ");
+		}
+		return conversion;
 	}
 }

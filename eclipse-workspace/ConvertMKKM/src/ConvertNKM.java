@@ -28,12 +28,11 @@ public class ConvertNKM {
 				uniteDeMesure = "km";
 			}
 
-			uniteDeMesure = uniteDeMesure.toLowerCase();
 		}
 		while(!uniteDeMesure.equals("mi") && !uniteDeMesure.equals("km"));
 
 		if (uniteDeMesure.equals("km")){
-			conversion = ((valeur *9/5)+32);
+			conversion = (valeur /1.609);
 			System.out.println("La distance " +valeur+ " en Km vaut "+conversion+" Miles");
 		}
 		else {
