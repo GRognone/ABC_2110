@@ -19,7 +19,7 @@ public class Convert {
 
 		valeur = Integer.valueOf(tableauDeConversion[0]); // transformation et recuperation valeur texte  "12 " en int
 
-		/*if (tableauDeConversion.length > 1) {
+		if (tableauDeConversion.length > 1) {
 			uniteDeMesure = tableauDeConversion[1];
 		}
 		else {
@@ -31,14 +31,12 @@ public class Convert {
 		if (uniteDeMesure.equals("km")){
 			double distance = (valeur /1.609);
 			System.out.println("La distance " +valeur+ "en Km vaut "+distance+" Miles");
-
 		}
 		else {
 			uniteDeMesure.equals("mi");
 			double distance1 = (valeur *1.609); 
 			System.out.println("La distance "+valeur+" en Miles vaut"+distance1+"Km");
-		}*/
+		}
 		sc.close();
 	}
-
 }

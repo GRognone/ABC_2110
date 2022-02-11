@@ -51,7 +51,7 @@ public class CalculBeneficeIntere {
 		System.out.println("La valeur acquise simple est de :"+df.format(valeuracquisesimple)+" euros");	
 		//ecrire "La valeur acquise composee est de :"
 		System.out.println("La valeur acquise composee est de :"+df.format(valeuracquisecomposee)+" euros");
-		
+		sc.close();
 		//FIN
 	}
 		

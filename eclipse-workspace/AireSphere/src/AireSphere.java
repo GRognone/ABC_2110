@@ -34,7 +34,7 @@ public class AireSphere {
 		System.out.println("L'aire de la sphere est de:"+aire);
 		//ecrire "Le volume de la sphere est de :"volume
 		System.out.println("Le volume de la sphere est de:"+volume);
-		
+		sc.close();
 				
 	}
 

@@ -34,9 +34,6 @@ public class AireSecteurCirculaire {
 		//AFFICHAGE
 		//ecrire"L'aire su secteur circulaire est de",aire
 		System.out.println("L'aire du secteur circulaire est de :"+aire);
-		
-		
-		
+		sc.close();	
 	}
-
 }

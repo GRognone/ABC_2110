@@ -7,7 +7,6 @@ public class ConvertisseurKmMiles {
 
 		double kilometres=0;
 		double miles;
-		String q;
 		String saisieUtilisateur;
 		boolean veutQuitter = false;
 		Scanner sc = new Scanner( System.in);
@@ -17,6 +16,7 @@ public class ConvertisseurKmMiles {
 			saisieUtilisateur = sc.next().toLowerCase();
 			if (saisieUtilisateur.equals("q")) {
 				veutQuitter = true;
+				System.out.println("Au revoir");
 			} else {
 				kilometres = Double.parseDouble(saisieUtilisateur);
 			}			 
@@ -28,9 +28,6 @@ public class ConvertisseurKmMiles {
 				System.out.println(" La distance  "+kilometres+" km en miles est de: "+miles+ "  miles.");
 			}
 		}
-		
 		sc.close();
 	}
 }
-
-

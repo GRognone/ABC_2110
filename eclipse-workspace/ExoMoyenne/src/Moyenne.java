@@ -60,7 +60,7 @@ public class Moyenne {
 		
 		//ecrire " La moyenne des 2 nombres est de :",moyenne
 		System.out.println("La moyenne des 2 nombres est de :"+moyenne);
-	
+	sc.close();
 	}
 
 }
