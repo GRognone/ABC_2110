@@ -21,27 +21,23 @@ public class Exercice212 {
 		uniteDeMesure[2] = "mile";
 		
 		valeur = Float.parseFloat(uniteDeMesure[0]);
-
-
-		/*if(distanceAConvertirEnKm > 1) {//equivalence au ternaire sOrNot par un if else
+	/*	if(distanceConvertieEnKm > 1) {//equivalence au ternaire sOrNot par un if else
 			String sOrNot1 = "s";
 		} else {
 			String sOrNot1 = "";
 		}
-		if(distanceAConvertirEnMiles > 1) {//equivalence au ternaire sOrNot par un if else
-			String sOrNot1 = "s";
-		} else {
+		if(distanceConvertieEnMiles > 1) {//equivalence au ternaire sOrNot par un if else
+			} else {
 			String sOrNot1 = "";
-		}
+		} 
 		*/
 		distanceConvertieEnKm = valeur * 1.609;
 		String sOrNot= (distanceConvertieEnKm>1) ? "s" : "";
-		System.out.println("La distance "+distanceAConvertir+" mile convertie est de " +distanceConvertieEnKm+" "+uniteDeMesure[1]+sOrNot);
-
+		System.out.println("La distance "+distanceAConvertir+" mile" +sOrNot+" convertie est de " +distanceConvertieEnKm+" "+uniteDeMesure[1]+sOrNot);
 
 		distanceConvertieEnMiles = valeur / 1.609;
 		sOrNot= (distanceConvertieEnMiles>1) ? "s" : "";
-		System.out.println("La distance "+distanceAConvertir+" Km convertie est de" +distanceConvertieEnMiles+ " "+uniteDeMesure [2] +sOrNot);
+		System.out.println("La distance "+distanceAConvertir+" km" +sOrNot+" convertie est de " +distanceConvertieEnMiles+ " "+uniteDeMesure [2] +sOrNot);
 
 		sc.close();
 	}
