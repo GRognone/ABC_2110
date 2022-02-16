@@ -22,7 +22,6 @@ public class Barnabe {
 		while(sommeRestante>2);
 
 		System.out.println("Vous avez visite " +nombreMagasinVisite+ " magasins");
-
 		sc.close();
 	}
 }

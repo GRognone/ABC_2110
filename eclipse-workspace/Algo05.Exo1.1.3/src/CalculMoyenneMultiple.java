@@ -8,40 +8,25 @@ public class CalculMoyenneMultiple {
 
 		String [ ] tableauStockageNombres;
 		String nombres ;
-		boolean resultat=false;
 		int index=0;
+		float recupSaisies=0;
+		float moyenne;
 
-		tableauStockageNombres = new String [100];
-
-		do {
-			System.out.println("Veuillez les nombre svp.");
+			System.out.println("Veuillez saisir les nombre en les separants par un espace , valider à la fin de votre saisie par ' ok ' svp.");
 			nombres = sc.nextLine();
-
-			if (nombres.equals("calcul")) {
-				resultat=true;
-			}
-			else {
-				tableauStockageNombres [index] = nombres;
-				index ++;
-			}
-		}
-		while (resultat=false) ;
-
-		for (int i = 0; i< tableauStockageNombres.length; i++) {
-			String sommes =tableauStockageNombres[ i ];
-			sommeDesNombres (sommes);
 			
+				tableauStockageNombres=nombres.split(" ");
+
+		for (int i = 0; i<tableauStockageNombres.length; i++) {
+
+			String sommeDesNombre = tableauStockageNombres[ i ];
+			recupSaisies = recupSaisies +Float.valueOf(sommeDesNombre);
 		}
+
+		moyenne =recupSaisies/tableauStockageNombres.length;
+
+		System.out.println("La moyenne des nombres saisi est de "+moyenne);
 		System.out.println( "Programme termine.");
 		sc.close();
 	}
-	public static void sommeDesNombres (String sommes) {
-
-		String [ ] sommeDesNombres = sommes.split(";");
-
-		
-			//	System.out.println(sommes +" = " "La moyenne des nombres saisis "+  + "est de "+moyenne);
-
-	}
 }
-
