@@ -14,23 +14,39 @@ public class MainClass {
 		int nbEssais = 0;
 		
 		int min, max;
+		boolean minFinded, maxFinded;
+		boolean saisieCorrecte;
+		minFinded = maxFinded = false;
 		min = 0;
 		max = MAX_VALUE;
 		do {
 			do {
-				System.out.println("Veuillez entrer un nombre entre " + min + " et " + max + " compris (" + (MAX_ESSAIS-nbEssais) + " tentatives restantes)");
+				saisieCorrecte = true;
+				System.out.println("Veuillez entrer un nombre entre " + min + 
+						(minFinded ? "(exclus)":"(compris)")+ " et " + max + (maxFinded ? "(exclus)":"(compris)") + 
+						(MAX_ESSAIS-nbEssais) + " tentatives restantes)");
 				saisieUtilisateur = sc.nextInt();
-				if (saisieUtilisateur < min) {
+				if (saisieUtilisateur < min 	&& !minFinded) {
+					System.out.println("Veuillez saisir un nombre suppérieur ou égal à " + min);
+					saisieCorrecte = false;
+				} else if (saisieUtilisateur <= min && minFinded) {
 					System.out.println("Veuillez saisir un nombre suppérieur à " + min);
-				} else if (saisieUtilisateur > max) {
+					saisieCorrecte = false;
+				} else if (saisieUtilisateur > max && !maxFinded) {
+					System.out.println("Veuillez saisir un nombre inférieur ou égal à " + max);
+					saisieCorrecte = false;
+				} else if (saisieUtilisateur >= max && maxFinded) {
 					System.out.println("Veuillez saisir un nombre inférieur à " + max);
+					saisieCorrecte = false;
 				}
-			} while (saisieUtilisateur < min || saisieUtilisateur > max);
+			} while (!saisieCorrecte);
 			nbEssais++;
 			if (saisieUtilisateur < valeurATrouve) {
 				min = saisieUtilisateur;
+				minFinded = true;
 			} else if (saisieUtilisateur > valeurATrouve) {
 				max = saisieUtilisateur;
+				maxFinded = true;
 			}
 		} while (saisieUtilisateur != valeurATrouve && nbEssais < MAX_ESSAIS);
 		if (saisieUtilisateur == valeurATrouve) {

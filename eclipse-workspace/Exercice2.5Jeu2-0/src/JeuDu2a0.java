@@ -8,31 +8,62 @@ public class JeuDu2a0 {
 		Scanner sc= new Scanner( System.in);
 		Random rnd = new Random();
 
+		int ai;
+		int player;
+		int result;
+		int playerPoint=0;
+		int aiPoint=0;
+		boolean recommencer=true;
 
-		int nombreOrdinateur;
-		int nombreJoueur;
-		int pointMarque;
-		nombreOrdinateur= rnd.nextInt(3);
-		System.out.println(nombreOrdinateur);
+		while(recommencer){
+			ai= rnd.nextInt(3);
+			System.out.println("Joueur saisissez un nombre entier compris entre 0 et 2 svp.");
+			player=sc.nextInt();
 
-		System.out.println("Joueur saisissez un nombre entier compris entre 0 et 2 svp.");
-		nombreJoueur=sc.nextInt();
+			if (player==-1){
+				recommencer =false;
+				System.out.println("Partie termine");
+			}
+			else if (player>2) {
+				System.out.println("Nombre saisi trop grand.\n");
+			}
+			else if (player<-1) {
+				System.out.println("Nombre saisi trop petit.\n");
+			}
+			//debut comparaisons
+			else {
 
-		if (nombreJoueur<nombreOrdinateur){
-			pointMarque= ((nombreOrdinateur-nombreJoueur)=2);
-			System.out.println("Ordinateur Gagne "+pointMarque+" points");
+				if ((player<ai)&&((ai-player)>1)){
+					aiPoint++;
+					System.out.println("L'ordinateur marque 1 point\n");
+				}
+				else if ((player<ai)&&((ai-player)==1)){
+					playerPoint++;
+					System.out.println("Le joueur marque 1point\n");
+				}
+				else if ((player>ai)&&((player-ai)>1)){
+					playerPoint++;
+					System.out.println("Le joueur marque 1 point\n");
+				}
+				else if ((player>ai)&&((player-ai)==1)){
+					aiPoint++;
+					System.out.println("L'ordinateur marque 1 point\n");
+				}
+				else {
+					System.out.println("Egalite personne ne marque le point.\n");
+				}
+				System.out.println("L'ordinateur a "+aiPoint+ " points, le joueur a "+playerPoint+" points\n");
+
+				if (aiPoint==10) {
+					recommencer = false;
+					System.out.println("l'ordinateur gagne, fin de partie.");	
+				}
+				else if (playerPoint==10){
+					recommencer = false;
+					System.out.println("Le joueur gagne, fin de partie.");	
+				}
+			}
 		}
-		else if ((nombreJoueur < nombreOrdinateur) && ((nombreJoueur-nombreOrdinateur)=<1)) {
-			pointMarque= (nombreOrdinateur-nombreJoueur-1);
-			System.out.println("Ordinateur Gagne "+pointMarque+" points");
-		}
-			
-			sc.close();
+		sc.close();
 	}
-	}
-
-	
-
-	
-
-
+}

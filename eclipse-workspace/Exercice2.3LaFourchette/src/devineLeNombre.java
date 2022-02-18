@@ -12,33 +12,30 @@ public class devineLeNombre {
 		int nombreOrdinateur= random.nextInt(101);
 		int fourchetteMin=0;
 		int fourchetteMax=100;
-		
+		boolean trouve=false; 
+
 		System.out.println(nombreOrdinateur);
 
 		do { 
-			do {
-				System.out.println("Essayez de trouver le nombre choisi par l'ordinateur entre "+fourchetteMin+" et "+ fourchetteMax);
-				nombreUtilisateur=sc.nextInt();
+			System.out.println("Essayez de trouver le nombre choisi par l'ordinateur entre "+fourchetteMin+" et "+ fourchetteMax);
+			nombreUtilisateur=sc.nextInt();
+
+			// commande gestion valeur de la fourchette
+			if (nombreUtilisateur<nombreOrdinateur){														
+				fourchetteMin = nombreUtilisateur;
 			}
-				while 
-					(nombreUtilisateur < fourchetteMin || nombreUtilisateur > fourchetteMax); // commande gestion valeur de la fourchette
-				if (nombreUtilisateur<nombreOrdinateur){														
-					fourchetteMin = nombreUtilisateur;
-				}
-				else if (nombreUtilisateur > nombreOrdinateur) {
-					fourchetteMax=nombreUtilisateur;
-				}
-				if (nombreUtilisateur<nombreOrdinateur){ 
-					System.out.println("Le chiffre que vous rechercher est compris entre "+fourchetteMin+" et  "+fourchetteMax);
-				}
-				else if (nombreUtilisateur > nombreOrdinateur){
-					System.out.println("Le chiffre que vous rechercher est compris entre "+fourchetteMin+" et  "+fourchetteMax);
-				}
+			else if (nombreUtilisateur > nombreOrdinateur) {
+				fourchetteMax=nombreUtilisateur;
+			}
+			else
+			{
+				System.out.println("Bravo vous avez trouvé le bon chiffre!!! C'était :"+nombreUtilisateur);
+				trouve=true;
+			}	
 		}
 		while
-			(nombreUtilisateur != nombreOrdinateur);
-		System.out.println("Bravo vous avez trouvé le bon chiffre!!!");
-		System.out.println("Partie termine");
+			(!trouve);
+		System.out.println("Jeux terminé!");
 		sc.close();
 	}
 }
