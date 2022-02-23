@@ -10,7 +10,6 @@ public class JeuDu2a0 {
 
 		int ai;
 		int player;
-		int result;
 		int playerPoint=0;
 		int aiPoint=0;
 		boolean recommencer=true;
