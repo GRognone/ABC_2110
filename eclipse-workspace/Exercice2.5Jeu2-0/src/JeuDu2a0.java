@@ -20,16 +20,14 @@ public class JeuDu2a0 {
 			System.out.println("Joueur saisissez un nombre entier compris entre 0 et 2 svp.");
 			player=sc.nextInt();
 
-			if (player==-1){
+			if (player<0){
 				recommencer =false;
 				System.out.println("Partie termine");
 			}
 			else if (player>2) {
 				System.out.println("Nombre saisi trop grand.\n");
 			}
-			else if (player<-1) {
-				System.out.println("Nombre saisi trop petit.\n");
-			}
+			
 			//debut comparaisons
 			else {
 
