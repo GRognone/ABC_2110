@@ -14,6 +14,7 @@ public class rechercherUnNombreDansUnTableau {
 		int temp=0;
 		int valeurRecherchee;
 		int compteur=0;
+		int index=-1;
 
 		// Tableau Saisie des nombres 
 
@@ -23,15 +24,14 @@ public class rechercherUnNombreDansUnTableau {
 			tableauDeNombreEntier [ i ]=number;
 		}
 
-		//Tableau tri croissant des nombres simplifié
-
+	/*	//Tableau tri croissant des nombres simplifié
+		Arrays.sort(tableauDeNombreEntier); 
 		for (int i=0;i<tableauDeNombreEntier.length;i++){	
-			Arrays.sort(tableauDeNombreEntier);
-			System.out.println(tableauDeNombreEntier[ i ] );
+			System.out.print(tableauDeNombreEntier[ i ] +" \t");  // pour afficher en ligne surtout ne pa metre le ln apres print
 		}
+*/
+			//Tableau de tri des nombres version algorithme
 
-		/*	//Tableau de tri des nombres version algorithme
-		 
 		for (int i=0;i<tableauDeNombreEntier.length;i++)
 		{									
 			for(int j=i;j<tableauDeNombreEntier.length;j++) // a partir de ce point le programme compare les données
@@ -46,11 +46,11 @@ public class rechercherUnNombreDansUnTableau {
 			}
 			System.out.println(tableauDeNombreEntier[i]);
 		}
-		 */
+		 
 
-		// Chercher combien de fois la même valeur est dans le tableau
+	/*	// Chercher combien de fois la même valeur est dans le tableau
 
-		System.out.println("Saisissez le nombre a rechercher à rechercher svp;");
+		System.out.println("\n\nSaisissez le nombre a rechercher svp;");
 		valeurRecherchee=sc.nextInt();
 		for (int i=0;i<tableauDeNombreEntier.length;i++){
 			if ( valeurRecherchee==tableauDeNombreEntier [ i ]) {
@@ -61,12 +61,22 @@ public class rechercherUnNombreDansUnTableau {
 			System.out.println("Le nombre recherche n'existe pas!!");
 		}
 		else {
-			System.out.println("Le nombre " + valeurRecherchee +" est entre fois "+compteur+ " dans le tableau java");
+			System.out.println("Le nombre " + valeurRecherchee +" est entre fois "+compteur+ " dans le tableau java \n");
 		}
 
-		// trouverl emplacement du tableau où se trouve le nombre recherche
+		// trouver emplacement du tableau où se trouve le nombre recherche
 
-
+		System.out.println("Saisissez le nombre a rechercher à rechercher svp;");
+		valeurRecherchee=sc.nextInt();
+		for (int i = 0; i < tableauDeNombreEntier.length; i++) {
+			if ( valeurRecherchee==tableauDeNombreEntier [ i ]) {
+				index=i;
+				System.out.println("Le nombre recherche se trouve a l'emplacement "+ i );
+			}
+		}
+		if (index<0) {
+			System.out.println("Le nombre n'existe pas");
+		}*/
 		sc.close();
 	}
 }
