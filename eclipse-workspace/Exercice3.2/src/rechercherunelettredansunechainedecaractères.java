@@ -37,7 +37,7 @@ public class rechercherunelettredansunechainedecaractères {
 				System.out.println("Le caractère recherché n'existe pas");
 			}
 			else {
-				System.out.println("Le caractereRecherche "+caractereRecherche+" est disponible "+compteur+ " fois dans le tableau java");
+				System.out.println("Le caractere recherche "+caractereRecherche+" est disponible "+compteur+ " fois dans le tableau java");
 			}
 		}
 		sc.close();
