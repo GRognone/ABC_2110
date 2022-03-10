@@ -24,15 +24,15 @@ public class rechercherUnNombreDansUnTableau {
 			tableauDeNombreEntier [ i ]=number;
 		}
 
-	/*	//Tableau tri croissant des nombres simplifié
+	//Tableau tri croissant des nombres simplifié
 		Arrays.sort(tableauDeNombreEntier); 
 		for (int i=0;i<tableauDeNombreEntier.length;i++){	
 			System.out.print(tableauDeNombreEntier[ i ] +" \t");  // pour afficher en ligne surtout ne pa metre le ln apres print
 		}
-*/
+
 			//Tableau de tri des nombres version algorithme
 
-		for (int i=0;i<tableauDeNombreEntier.length;i++)
+	/*	for (int i=0;i<tableauDeNombreEntier.length;i++)
 		{									
 			for(int j=i;j<tableauDeNombreEntier.length;j++) // a partir de ce point le programme compare les données
 			{ 						
@@ -44,9 +44,9 @@ public class rechercherUnNombreDansUnTableau {
 					j--; //  sert à reverifier que le nombre qui a été echangé est quand même plus petit que les suivants.
 				}	
 			}
-			System.out.println(tableauDeNombreEntier[i]);
+			System.out.print(tableauDeNombreEntier[i]+" ");// affichage de tous les resultats en sur 1 ligne
 		}
-		 
+		 */
 
 	/*	// Chercher combien de fois la même valeur est dans le tableau
 
