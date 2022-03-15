@@ -5,35 +5,36 @@ public class Palindrome {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-
-		/*Un palindrome est une chaîne de caractères que l'on peut lire identiquement de droite à gauche, et gauche à droite.
-		Par exemple:
-			AA. 38783. LAVAL. LAVAL A ETE A LAVAL. ET LA MARINE VA VENIR A MALTE
-			Soit une chaîne de caractères terminée par un point. 
-			Ecrivez l'algorithme d'un programme permettant d'affirmer si cette phrase est ou non un palindrome.
-
-			Proposez un jeu d'essai prévoyant les 3 cas suivants :
-
-			▪ la chaîne de caractères n'est pas un palindrome
-			▪ la chaîne de caractères est un palindrome
-		 */
 		Scanner sc = new Scanner(System.in);
-		boolean estUnPalindrome=false;
 		String phrase;
-
-		System.out.println(" Veuillez saisir une chaine de caratère svp et terminez la par un point.");
+		boolean palindrome = true;
+		boolean itsOk=true;
+		System.out.println("Veuillez saisir une chaine de caratère svp et terminez la par un point.");
 		phrase = sc.nextLine();
-		String phrase1[]= phrase.split(" ");
+		String result = phrase.replaceAll("\s",""); // pour supprimer les espaces
+		System.out.println(result);
 		
-		for (int i = 0; i<phrase1.length; i++)
-		{
-		System.out.println(phrase1[i]);
-		}
-		if (phrase.equals (".")) {
+		if (result.equals (".")) { // si il n'y a qu'un point je sors
+			itsOk=false;
+			palindrome = false;
 			System.out.println("LA CHAINE EST VIDE");
 		}
-
+		if (result.charAt(result.length()-1)=='.') { // pour retirer le point si c'est le dernier caractere.
+			result = result.substring(0,result.length()-1);
+		}
+		for (int i=0; i< result.length();i++) { // algo comparatif
+			if ( result.charAt(i) != (result.charAt(result.length()-1-i))){
+				palindrome = false;
+			}
+		}
+		if(itsOk) {
+			if ( palindrome == false) {
+				System.out.println(phrase+ " n'est un pas palindrome.");
+			}
+			else {
+				System.out.println(phrase+ " est un palindrome.");
+			}
+		}
 		sc.close();
 	}
-
 }

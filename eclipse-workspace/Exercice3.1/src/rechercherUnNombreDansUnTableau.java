@@ -48,7 +48,7 @@ public class rechercherUnNombreDansUnTableau {
 		}
 		 */
 
-	/*	// Chercher combien de fois la même valeur est dans le tableau
+	// Chercher combien de fois la même valeur est dans le tableau
 
 		System.out.println("\n\nSaisissez le nombre a rechercher svp;");
 		valeurRecherchee=sc.nextInt();
@@ -64,7 +64,7 @@ public class rechercherUnNombreDansUnTableau {
 			System.out.println("Le nombre " + valeurRecherchee +" est entre fois "+compteur+ " dans le tableau java \n");
 		}
 
-		// trouver emplacement du tableau où se trouve le nombre recherche
+		//trouver emplacement du tableau où se trouve le nombre recherche
 
 		System.out.println("Saisissez le nombre a rechercher à rechercher svp;");
 		valeurRecherchee=sc.nextInt();
@@ -76,7 +76,7 @@ public class rechercherUnNombreDansUnTableau {
 		}
 		if (index<0) {
 			System.out.println("Le nombre n'existe pas");
-		}*/
+		}
 		sc.close();
 	}
 }

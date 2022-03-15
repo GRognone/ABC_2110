@@ -21,7 +21,7 @@ public class LesTableaux {
 
 		for (int i=0; i<monTableau.length ; i++) {
 			
-			monTableau[ i ] =monTableau [ i ] + " s";// rajout de la lettre s à tous les elements du tableau
+			monTableau[ i ] =monTableau [ i ] + "s";// rajout de la lettre s à tous les elements du tableau
 			System.out.println(monTableau[ i ]+ " nbCaracter " +monTableau[ i ].length()); // " nbCaracter " +monTableau[ i ].length()  Affiche le nombre de caractere contenu dans  1 case 
 		}
 	}
