@@ -38,18 +38,3 @@ public class TemperatureDeLeau {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
