@@ -25,7 +25,11 @@ public class Exercice3 {
 				if ( nombreDeSaisie>=3){
 					reSaisissez=false;
 					System.out.println("veuillez repondre à la question secrete: qu'avez vous fait d'important en 2021?");
+					
 					saisieUtilisateur=sc.next();
+					saisieUtilisateur=String.format("toto %s ",saisieUtilisateur);
+					System.out.println(saisieUtilisateur);
+					
 					if (!saisieUtilisateur.equals("formation")){
 						System.out.println("compte bloqué");
 					}
@@ -35,6 +39,8 @@ public class Exercice3 {
 				}
 			}
 		}
+		System.out.println(String.format("%.2s","HELLO"));
+		
 		sc.close();	
 	}
 }
