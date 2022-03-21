@@ -14,30 +14,42 @@ public class jeuDuPendu {
 
 		Scanner sc = new Scanner(System.in);
 
+		String motCache;
 		String motATrouver;
 		String essaiUtilisateur;
+		int nombreDeTentatives =6;
+		boolean lettreATrouver;
 
-
+		// verification mot a trouver > 5 caracteres.
 		do {
 			System.out.println("Veuillez saisir un mot a trouver de 5 caracteres minimum svp");
 			motATrouver=sc.next();
-			
 			System.out.println(motATrouver);
 		}
 		while	(motATrouver.length()<5);
 
-		/*
-for (int i=1;i=motATrouver.length();i++) {
-	for(int j=i;j=motATrouver.length();j++) {
-		if (motATrouver[j] = motATrouver[i]) {
+		motCache=motATrouver;
 
+		for (int i=1; i<motATrouver.length()-1;i++) {
+			motATrouver = motATrouver.replace(motATrouver.charAt(i),'-') ;
 		}
-	}
-}*/
+		for (int i=0; i<motATrouver.length();i++) {
+			System.out.print(motATrouver.charAt(i));
+		}
 
+		// debut du jeu
+		while (nombreDeTentatives>0) {
+			System.out.println("\nVeuillez saisir une lettre vous avez 6 essais");
+			essaiUtilisateur= sc.next();
 
-
-
-		sc.close();
+			for (int i=1; i<motATrouver.length()-1;i++) {
+				if (essaiUtilisateur.equals(motATrouver.charAt(i))){
+					System.out.print(motATrouver.charAt(i));
+				}
+			}
+			nombreDeTentatives--;
+			System.out.print("Il vous reste "+nombreDeTentatives+" tentatives.");
+			sc.close();
+		}
 	}
 }
