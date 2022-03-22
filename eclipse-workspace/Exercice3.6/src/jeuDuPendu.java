@@ -14,42 +14,42 @@ public class jeuDuPendu {
 
 		Scanner sc = new Scanner(System.in);
 
-		String motCache;
+		char motCache[];
 		String motATrouver;
-		String essaiUtilisateur;
+		char essaiUtilisateur;
 		int nombreDeTentatives =6;
-		boolean lettreATrouver;
 
 		// verification mot a trouver > 5 caracteres.
 		do {
 			System.out.println("Veuillez saisir un mot a trouver de 5 caracteres minimum svp");
 			motATrouver=sc.next();
-			System.out.println(motATrouver);
+			//System.out.println(motATrouver);// a supprimer quand programme fini
 		}
 		while	(motATrouver.length()<5);
 
-		motCache=motATrouver;
+		motCache=motATrouver.toCharArray();
 
 		for (int i=1; i<motATrouver.length()-1;i++) {
-			motATrouver = motATrouver.replace(motATrouver.charAt(i),'-') ;
+			motCache[i] = '-' ;
 		}
-		for (int i=0; i<motATrouver.length();i++) {
-			System.out.print(motATrouver.charAt(i));
+		for (int i=0; i<motCache.length;i++) {
+			System.out.print(motCache[i]);
 		}
 
 		// debut du jeu
 		while (nombreDeTentatives>0) {
 			System.out.println("\nVeuillez saisir une lettre vous avez 6 essais");
-			essaiUtilisateur= sc.next();
+			essaiUtilisateur = sc.next().charAt(0);
 
 			for (int i=1; i<motATrouver.length()-1;i++) {
-				if (essaiUtilisateur.equals(motATrouver.charAt(i))){
-					System.out.print(motATrouver.charAt(i));
+				if (motATrouver.charAt(i) == essaiUtilisateur){
+					motCache[i] = motATrouver.charAt(i);
 				}
 			}
+			System.out.print(motCache);
 			nombreDeTentatives--;
-			System.out.print("Il vous reste "+nombreDeTentatives+" tentatives.");
-			sc.close();
+			System.out.print(" Il vous reste "+nombreDeTentatives+" tentatives.");
 		}
+		sc.close();
 	}
 }
