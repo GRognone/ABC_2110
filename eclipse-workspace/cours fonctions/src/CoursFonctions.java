@@ -16,6 +16,7 @@ System.out.println(resultat);*/
 System.out.println("Veuillez saisir un nombre svp");
 int resultat = addition (sc.nextInt(), sc.nextInt());
 System.out.println(resultat);
+sc.close();
 	}
 	// pas de retour fonctions fixes
 public static void helloWorld() {
