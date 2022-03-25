@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Users\GRognone\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208\jre" stamp="1643959327647"/>
     <entry loc="/Library/Java/JavaVirtualMachines/jdk-17.0.2.jdk/Contents/Home" stamp="1643918823859"/>
     <entry loc="/Users/gerardrognone/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657" stamp="1638314370798"/>
     <entry loc="/Users/gerardrognone/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.1.v20211116-1657/jre" stamp="1638314370797"/>
     <entry loc="C:\Users\GRognone\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059" stamp="1634559421431"/>
+    <entry loc="C:\Users\GRognone\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.2.v20220201-1208" stamp="1643959327649"/>
     <entry loc="C:\Users\GRognone\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre" stamp="1634559421431"/>
 </dirs>
