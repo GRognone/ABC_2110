@@ -33,7 +33,7 @@ public class tempsAvantRetraite {
 		else {
 			int resteATravailler = (60 - age);
 
-			String sOrNot = (resteATravailler > 1) ? "s" : ""; // Si el chiffre >1 annee prendra un S
+			String sOrNot = (resteATravailler > 1) ? "s" : ""; // Si le chiffre >1 annee prendra un S
 
 			return " Vous devez encore travailler " + resteATravailler + " annee"+ sOrNot;
 		}
