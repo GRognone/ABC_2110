@@ -8,11 +8,11 @@ public class CalculMoyenneMultiple {
 
 		String [ ] tableauStockageNombres;
 		String nombres ;
-		int index=0;
+		
 		float recupSaisies=0;
 		float moyenne;
 
-			System.out.println("Veuillez saisir les nombre en les separants par un espace , valider à la fin de votre saisie par ' ok ' svp.");
+			System.out.println("Veuillez saisir les nombre en les separants par un espace , valider ï¿½ la fin de votre saisie par ' ok ' svp.");
 			nombres = sc.nextLine();
 			
 				tableauStockageNombres=nombres.split(" ");
