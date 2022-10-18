@@ -72,9 +72,6 @@ public class beauTemp {
 				System.out.println("J'irais faire une balade a bicyclette");
 			}
 		}
-
 		sc.close();
 	}
 }	
-
-
